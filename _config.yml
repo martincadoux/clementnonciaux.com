@@ -1,0 +1,14 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: "/:basename"
+include: ['_pages']
