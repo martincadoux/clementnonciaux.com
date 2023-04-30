@@ -3,3 +3,19 @@ title: Media - Clément Nonciaux
 ---
 
 <h1>Media</h1>
+
+<h2>Vidéos</h2>
+{% for item in site.data.media.videos %}
+<video controls>
+  <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
+</video>
+{% endfor %}
+
+<h2>Photos</h2>
+{% for item in site.data.media.photos %}
+<picture>
+  <a href="{{ site.paths.photos }}/{{ item.name }}.jpg">
+    <img src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}">
+  </a>
+</picture>
+{% endfor %}

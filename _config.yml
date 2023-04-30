@@ -12,3 +12,6 @@ defaults:
     values:
       permalink: "/:basename"
 include: ['_pages']
+paths:
+  photos: "/media/photos"
+  videos: "/media/videos"
