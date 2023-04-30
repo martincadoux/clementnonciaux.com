@@ -3,3 +3,23 @@ title: Calendrier - Clément Nonciaux
 ---
 
 <h1>Calendrier</h1>
+
+{% assign upcoming_events = "" | split: "" %}
+{% assign passed_events = "" | split: "" %}
+
+{% assign current_date = site.time | date: "%s" %}
+
+{% for item in site.data.events %}
+{% assign event_date = item.date | date: "%s" %}
+{% if event_date >= current_date %}
+{% assign upcoming_events = upcoming_events | push: item %}
+{% else %}
+{% assign passed_events = passed_events | push: item %}
+{% endif %}
+{% endfor %}
+
+<h2>Événements à venir</h2>
+{% include events.html events=upcoming_events %}
+
+<h2>Événements passés</h2>
+{% include events.html events=passed_events %}

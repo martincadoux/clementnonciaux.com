@@ -1,0 +1,8 @@
+<ul class="events">
+  {% for item in include.events %}
+  <li class="events__item">
+    <p>{{ item.name }}</p>
+    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date }}</time>
+  </li>
+  {% endfor %}
+</ul>
