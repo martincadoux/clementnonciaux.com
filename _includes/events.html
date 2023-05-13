@@ -1,8 +1,13 @@
+{% assign events = include.events | sort: "date" | reverse %}
+
 <ul class="events">
-  {% for item in include.events %}
+  {% for item in events %}
   <li class="events__item">
-    <p>{{ item.name }}</p>
-    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date }}</time>
+    <time class="events__time" datetime="{{ item.date | date_to_xmlschema }}">
+      {{ item.date | date_to_long_string }}
+    </time>
+    <p class="events__location">{{ item.location }}</p>
+    <p class="events__program">{{ item.program | markdownify }}</p>
   </li>
   {% endfor %}
 </ul>

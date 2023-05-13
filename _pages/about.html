@@ -1,7 +1,9 @@
 ---
-title: À propos - Clément Nonciaux
+title: About - Clément Nonciaux
 ---
 
-<h1>À propos</h1>
+<h1>About</h1>
 
-{{ site.data.biography | markdownify }}
+{% for item in site.data.biography %}
+{% include biography.html bio=item %}
+{% endfor %}

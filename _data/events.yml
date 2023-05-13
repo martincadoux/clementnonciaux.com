@@ -1,5 +1,68 @@
-- name: Événement 1
-  date: 1970-01-01
+- date: 2024-03-01
+  location: |-
+    Russian National Youth Symphony Orchestra
+  program: |-
+    Program TBA
 
-- name: Événement 2
-  date: 2024-01-01
+- date: 2023-12-10
+  location: |-
+    Moscow
+  program: |-
+    Elgar, Enigma Variations, Op. 36  
+    Chopin, 2nd Piano Concerto, Op. 21
+
+- date: 2023-12-07
+  location: |-
+    Salekhard, RU
+  program: |-
+    Elgar, Enigma Variations, Op. 36  
+    Chopin, 2nd Piano Concerto, Op. 21
+
+- date: 2023-11-19
+  location: |-
+    Tchaikovsky Symphony Orchestra  
+    Moscow
+  program: |-
+    Saint-Saëns, 3rd Symphony, Op. 78  
+    Saint-Saëns, Introduction et rondo capriccioso, Op. 28  
+    Rachmaninoff, 3rd Piano Concerto, Op. 30 | Alexei Melnikov, Solist
+
+- date: 2023-08-23
+  location: |-
+    Russian National Orchestra  
+    Concert within the festival ”Territoria Mira” in Kaliningrad.
+  program: |-
+    Program TBA  
+    Soloists : winners of the Tchaikovsky Competition
+
+- date: 2023-07-15
+  location: |-
+    Novaya Opera Theatre  
+    Moscow
+  program: |-
+    Le postillon de Lonjumeau, A. Adam, Concert version
+
+- date: 2023-07-13
+  location: |-
+    Novaya Opera Theatre  
+    Moscow
+  program: |-
+    Le postillon de Lonjumeau, A. Adam, Concert version
+
+- date: 2023-06-18
+  location: |-
+    Neue Philharmonie Berlin
+  program: |-
+    Haydn, Symphony No. 44 in E minor  
+    Mozart, Symphony No. 28 in A Major, K.201  
+    Respighi, Antiche danze ed arie per liuto (3rd suite)  
+    Holst, St. Paul’s Suite  
+
+- date: 2023-06-17
+  location: |-
+    Neue Philharmonie Berlin
+  program: |-
+    Haydn, Symphony No. 44 in E minor  
+    Mozart, Symphony No. 28 in A Major, K.201  
+    Respighi, Antiche danze ed arie per liuto (3rd suite)  
+    Holst, St. Paul’s Suite

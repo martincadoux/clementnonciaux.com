@@ -1,0 +1,13 @@
+{% assign photos = site.data.photos %}
+
+<ul class="photos">
+  {% for item in photos %}
+  <li class="photos__item">
+    <picture>
+      <a href="{{ site.paths.photos }}/{{ item.name }}.jpg">
+        <img src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}">
+      </a>
+    </picture>
+  </li>
+  {% endfor %}
+</ul>

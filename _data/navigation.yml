@@ -1,13 +1,13 @@
-- name: Accueil
+- name: Home
   link: /
 
-- name: À propos
+- name: About
   link: /about.html
 
 - name: Media
   link: /media.html
 
-- name: Calendrier
+- name: Calendar
   link: /calendar.html
   
 - name: Contact

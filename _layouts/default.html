@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,8 +8,19 @@
 </head>
 
 <body>
-  {% include navigation.html %}
-  {{ content }}
+  <header class="header">
+    {% include navigation.html %}
+  </header>
+
+  <main class="main">
+    {{- content -}}
+  </main>
+
+  <footer class="footer">
+    <a class="footer__link" href="https://www.instagram.com/clementnonciaux/" target="_blank">
+      {{- "Instagram" -}}
+    </a>
+  </footer>
 </body>
 
 </html>

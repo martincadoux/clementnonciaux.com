@@ -1,11 +1,11 @@
 ---
-title: Calendrier - Clément Nonciaux
+title: Calendar - Clément Nonciaux
 ---
 
-<h1>Calendrier</h1>
+<h1>Calendar</h1>
 
 {% assign upcoming_events = "" | split: "" %}
-{% assign passed_events = "" | split: "" %}
+{% assign past_events = "" | split: "" %}
 
 {% assign current_date = site.time | date: "%s" %}
 
@@ -14,12 +14,12 @@ title: Calendrier - Clément Nonciaux
 {% if event_date >= current_date %}
 {% assign upcoming_events = upcoming_events | push: item %}
 {% else %}
-{% assign passed_events = passed_events | push: item %}
+{% assign past_events = past_events | push: item %}
 {% endif %}
 {% endfor %}
 
-<h2>Événements à venir</h2>
+<h2>Upcoming events</h2>
 {% include events.html events=upcoming_events %}
 
-<h2>Événements passés</h2>
-{% include events.html events=passed_events %}
+<h2>Past events</h2>
+{% include events.html events=past_events %}
