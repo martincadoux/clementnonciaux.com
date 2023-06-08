@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  &__item {
+    flex: 0 0 auto;
+    font-size: 1.8rem;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      text-decoration-line: underline;
+    }
+  }
+}

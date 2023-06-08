@@ -2,7 +2,7 @@
 title: Calendar - Clément Nonciaux
 ---
 
-<h1>Calendar</h1>
+<h1 class="typo-h1">Calendar</h1>
 
 {% assign upcoming_events = "" | split: "" %}
 {% assign past_events = "" | split: "" %}
@@ -18,8 +18,12 @@ title: Calendar - Clément Nonciaux
 {% endif %}
 {% endfor %}
 
-<h2>Upcoming events</h2>
-{% include events.html events=upcoming_events %}
+<section class="layout-section">
+  <h2 class="typo-h2">Upcoming events</h2>
+  {% include events.html events=upcoming_events %}
+</section>
 
-<h2>Past events</h2>
-{% include events.html events=past_events %}
+<section class="layout-section">
+  <h2 class="typo-h2">Past events</h2>
+  {% include events.html events=past_events %}
+</section>

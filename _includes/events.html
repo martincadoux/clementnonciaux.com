@@ -7,7 +7,7 @@
       {{ item.date | date_to_long_string }}
     </time>
     <p class="events__location">{{ item.location }}</p>
-    <p class="events__program">{{ item.program | markdownify }}</p>
+    <div class="events__program">{{ item.program | markdownify }}</div>
   </li>
   {% endfor %}
 </ul>

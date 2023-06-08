@@ -1,0 +1,28 @@
+.layout-container {
+  margin-block: var(--layout-gap);
+  margin-inline: auto;
+  width: 100%;
+  max-width: 96rem;
+}
+
+.layout-section + .layout-section{
+  margin-block-start: var(--layout-gap);
+}
+
+.header {
+  &__home {
+    display: block;
+    margin-block-end: var(--layout-gap);
+    font-size: 3rem;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+    @media (min-width: 40em) {
+      font-size: 4.4rem;
+    }
+  }
+}
+
+.footer {
+  margin-block-start: auto;
+}

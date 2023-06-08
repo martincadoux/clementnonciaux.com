@@ -3,9 +3,10 @@
 <ul class="videos">
   {% for item in videos %}
   <li class="videos__item">
-    <video controls>
-      <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
-    </video>
+    <h3 class="videos_title">{{ item.title }}</h3>
+    <iframe width="560" height="315" src="{{ item.link }}" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
   </li>
   {% endfor %}
 </ul>

@@ -1,2 +1,13 @@
-@import "navigation";
-@import "events";
+// Base
+@import "base/variables";
+@import "base/base";
+@import "base/layout";
+@import "base/typography";
+
+// Components
+@import "components/biography";
+@import "components/events";
+@import "components/intro";
+@import "components/navigation";
+@import "components/photos";
+@import "components/videos";

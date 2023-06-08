@@ -1,7 +1,7 @@
 {% assign bio = include.bio %}
 
 <article class="biography" lang="{{ bio.tag }}">
-  <h2 class="biography__language">{{ bio.language }}</h2>
+  <h2 class="biography__language typo-h2">{{ bio.language }}</h2>
   <div class="biography__content">
     {{ bio.content | markdownify }}
   </div>

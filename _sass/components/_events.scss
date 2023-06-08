@@ -1,0 +1,14 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-gap);
+  list-style-type: disc;
+
+  &__time {
+    font-weight: 500;
+  }
+
+  &__program {
+    margin-block-start: 1rem;
+  }
+}

@@ -3,11 +3,11 @@
 <ul class="photos">
   {% for item in photos %}
   <li class="photos__item">
-    <picture>
-      <a href="{{ site.paths.photos }}/{{ item.name }}.jpg">
+    <a href="{{ site.paths.photos }}/{{ item.name }}.jpg">
+      <picture>
         <img src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}">
-      </a>
-    </picture>
+      </picture>
+    </a>
   </li>
   {% endfor %}
 </ul>

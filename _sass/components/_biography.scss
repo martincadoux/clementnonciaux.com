@@ -1,0 +1,12 @@
+.biography {
+  &__content {
+    p,
+    blockquote {
+      margin-block-end: var(--layout-gap);
+    }
+
+    blockquote p {
+      margin: 0;
+    }
+  }
+}

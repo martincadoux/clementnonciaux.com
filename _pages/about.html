@@ -2,8 +2,10 @@
 title: About - Clément Nonciaux
 ---
 
-<h1>About</h1>
+<h1 class="typo-h1">About</h1>
 
 {% for item in site.data.biography %}
-{% include biography.html bio=item %}
+<section class="layout-section">
+  {% include biography.html bio=item %}
+</section>
 {% endfor %}
