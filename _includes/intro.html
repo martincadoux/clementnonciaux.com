@@ -1,5 +1,13 @@
 {% assign intro = site.data.intro %}
+{% assign photo = site.data.photos[0] %}
 
 <article class="intro">
-  {{- intro | markdownify -}}
+  <picture class="intro__picture">
+    <img class="intro__image" src="{{ site.paths.photos }}/{{ photo.name }}.jpg" alt="{{ photo.description }}"
+      width="960" height="720">
+  </picture>
+
+  <div class="intro__text">
+    {{- intro | markdownify -}}
+  </div>
 </article>

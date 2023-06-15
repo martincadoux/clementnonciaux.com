@@ -2,11 +2,11 @@
   margin-block: var(--layout-gap);
   margin-inline: auto;
   width: 100%;
-  max-width: 96rem;
+  max-width: 100rem;
 }
 
-.layout-section + .layout-section{
-  margin-block-start: var(--layout-gap);
+.layout-section + .layout-section {
+  margin-block-start: calc(var(--layout-gap) * 2);
 }
 
 .header {
@@ -25,4 +25,27 @@
 
 .footer {
   margin-block-start: auto;
+  padding-block-start: var(--layout-gap);
+
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+}
+
+.languages {
+  margin-block-end: calc(var(--layout-gap) * 2);
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--layout-gap);
+  }
 }

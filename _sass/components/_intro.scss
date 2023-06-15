@@ -1,3 +1,31 @@
 .intro {
-  
+  position: relative;
+
+  &__picture {
+    position: relative;
+    display: block;
+    margin-block-end: var(--layout-gap);
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      box-shadow: inset 1rem -1rem 2rem #000;
+    }
+  }
+
+  &__image {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  &__text {
+    @media (min-width: 48em) {
+      position: absolute;
+      inset-block-start: 2rem;
+      inset-inline-end: 0;
+      max-width: 40%;
+      font-size: 2rem;
+    }
+  }
 }

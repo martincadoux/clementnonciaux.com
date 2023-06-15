@@ -9,8 +9,15 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0 var(--layout-gap);
+  background-color: var(--color-background);
+  color: var(--color-content);
   font-size: 1.6rem;
   font-weight: 400;
+
+  &.dark {
+    --color-background: rgb(0, 0, 0);
+    --color-content: var(--color-main);
+  }
 }
 
 h1,
@@ -49,7 +56,8 @@ a:any-link {
 }
 
 img,
-video {
+video,
+iframe {
   display: block;
   max-width: 100%;
   height: auto;

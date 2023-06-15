@@ -5,9 +5,10 @@
 @import "base/typography";
 
 // Components
+@import "components/navigation";
+@import "components/intro";
 @import "components/biography";
 @import "components/events";
-@import "components/intro";
-@import "components/navigation";
 @import "components/photos";
 @import "components/videos";
+@import "components/social-links";

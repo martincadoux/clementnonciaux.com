@@ -1,9 +1,13 @@
 {% assign navigation = site.data.navigation %}
 
 <nav class="navigation">
-  {% for item in navigation %}
-  <a class="navigation__item {% if page.url == item.link %}navigation__item--current{% endif %}" href="{{ item.link }}">
-    {{- item.name -}}
-  </a>
-  {% endfor %}
+  <ul class="navigation__list">
+    {% for item in navigation %}
+    <li class="navigation__item {% if page.url == item.link %}navigation__item--current{% endif %}">
+      <a class="navigation__link" href="{{ item.link }}">
+        {{- item.name -}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </nav>

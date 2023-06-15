@@ -3,9 +3,10 @@
 <ul class="photos">
   {% for item in photos %}
   <li class="photos__item">
-    <a href="{{ site.paths.photos }}/{{ item.name }}.jpg">
+    <a class="photos__link" href="{{ site.paths.photos }}/{{ item.name }}.jpg">
       <picture>
-        <img src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}">
+        <img class="photos__image" src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}"
+          width="320" height="240">
       </picture>
     </a>
   </li>

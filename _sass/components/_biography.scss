@@ -1,4 +1,6 @@
 .biography {
+  scroll-margin: var(--layout-gap);
+  
   &__content {
     p,
     blockquote {

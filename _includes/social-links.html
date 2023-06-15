@@ -1,0 +1,9 @@
+{% assign social-links = site.data.social-links %}
+
+<ul class="social-links">
+  {% for item in social-links %}
+  <li class="social-links__item">
+    <a class="social-links__link" href="{{ item.link }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}
+</ul>

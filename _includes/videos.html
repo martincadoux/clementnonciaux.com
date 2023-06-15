@@ -3,8 +3,9 @@
 <ul class="videos">
   {% for item in videos %}
   <li class="videos__item">
-    <h3 class="videos_title">{{ item.title }}</h3>
-    <iframe width="560" height="315" src="{{ item.link }}" title="YouTube video player" frameborder="0"
+    <h3 class="videos__title">{{ item.title }}</h3>
+    <iframe class="videos__embed" width="560" height="315" src="{{ item.link }}" title="YouTube video player"
+      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
   </li>
