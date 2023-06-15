@@ -16,4 +16,7 @@ paths:
   photos: "/media/photos"
   videos: "/media/videos"
 plugins:
+  - jekyll-compress-images
   - jekyll-sitemap
+compress_images:
+  images_path: "media/photos/**/*.{gif,png,jpg,jpeg}"
