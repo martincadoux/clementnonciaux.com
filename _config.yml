@@ -15,3 +15,5 @@ include: ['_pages']
 paths:
   photos: "/media/photos"
   videos: "/media/videos"
+plugins:
+  - jekyll-sitemap
