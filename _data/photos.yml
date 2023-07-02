@@ -10,9 +10,9 @@
 - name: clementnonciaux_4
   description: Clément Nonciaux with the National Youth Orchestra of Russia
 
-  - name: clementnonciaux_5
+- name: clementnonciaux_5
   description: Clément Nonciaux conducting
 
-  - name: clementnonciaux_6
+- name: clementnonciaux_6
   description: Clément Nonciaux conducting the Mariinsky Orchestra
   
