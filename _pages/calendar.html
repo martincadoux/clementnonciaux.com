@@ -18,6 +18,9 @@ title: Calendar - Clément Nonciaux
 {% endif %}
 {% endfor %}
 
+{% assign upcoming_events = upcoming_events | sort: "date" %}
+{% assign past_events = past_events | sort: "date" | reverse %}
+
 <section class="layout-section">
   <h2 class="typo-h2">Upcoming events</h2>
   {% include events.html events=upcoming_events %}
