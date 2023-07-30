@@ -4,7 +4,6 @@
   &__picture {
     position: relative;
     display: block;
-    margin-block-end: var(--layout-gap);
 
     &::after {
       content: '';

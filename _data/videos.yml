@@ -1,11 +1,8 @@
-- link: https://www.youtube.com/embed/pCdh3VrVOr4
+- name: bolero
   title: |-
-    Ravel: Daphnis et Chloé
+    Boléro
 
-- link: https://www.youtube.com/embed/jiLtSDr9byM
+- name: daphnis
   title: |-
-    Rachmaninoff: The Rock
-
-- link: https://www.youtube.com/embed/Vp1SQyDK_kA
-  title: |-
-    Full french music concert with the Russian National Youth Orchestra
+    Daphnis et Chloé
+  link: https://youtu.be/pCdh3VrVOr4

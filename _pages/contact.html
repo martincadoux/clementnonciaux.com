@@ -2,6 +2,14 @@
 title: Contact - Clément Nonciaux
 ---
 
-<h1 class="typo-h1">Contact</h1>
+<div class="layout-content">
+  <div class="layout-content-start">
+    <h1 class="typo-h1">Contact</h1>
+    {% include social-links.html %}
+  </div>
 
-{% include social-links.html %}
+  <picture class="layout-content-end">
+    <source type="image/webp" srcset="{{ site.paths.photos }}/getintouch.webp">
+    <img class="layout-image" src="{{ site.paths.photos }}/getintouch.jpg" alt="">
+  </picture>
+</div>

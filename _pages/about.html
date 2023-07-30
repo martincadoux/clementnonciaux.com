@@ -2,22 +2,31 @@
 title: About - Clément Nonciaux
 ---
 
-<h1 class="typo-h1">About</h1>
+<div class="layout-content">
+  <div class="layout-content-start">
+    <h1 class="typo-h1">About</h1>
 
-<nav class="languages">
-  <ul class="languages__list">
-    {% for item in site.data.biography offset:1 %}
-    <li class="languages__item">
-      <a href="#{{ item.tag }}">
-        {{ item.language }}
-      </a>
-    </li>
+    <nav class="languages">
+      <ul class="languages__list">
+        {% for item in site.data.biography offset:1 %}
+        <li class="languages__item">
+          <a href="#{{ item.tag }}">
+            {{ item.language }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {% for item in site.data.biography %}
+    <section class="layout-section">
+      {% include biography.html bio=item %}
+    </section>
     {% endfor %}
-  </ul>
-</nav>
+  </div>
 
-{% for item in site.data.biography %}
-<section class="layout-section">
-  {% include biography.html bio=item %}
-</section>
-{% endfor %}
+  <picture class="layout-content-end">
+    <source type="image/webp" srcset="{{ site.paths.photos }}/clementnonciaux_2.webp">
+    <img class="layout-image" src="{{ site.paths.photos }}/clementnonciaux_2.jpg" alt="">
+  </picture>
+</div>

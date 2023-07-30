@@ -4,10 +4,13 @@
   {% for item in videos %}
   <li class="videos__item">
     <h3 class="videos__title">{{ item.title }}</h3>
-    <iframe class="videos__embed" width="560" height="315" src="{{ item.link }}" title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+    <video controls width="560" height="315">
+      <source src="{{ site.paths.videos }}/{{ item.name }}.webm" type="video/webm">
+      <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
+    </video>
+    {% if item.link %}
+    <a href="{{ item.link }}">Watch the full video on Youtube</a>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>

@@ -2,31 +2,40 @@
 title: Calendar - Clément Nonciaux
 ---
 
-<h1 class="typo-h1">Calendar</h1>
+<div class="layout-content">
+  <div class="layout-content-start">
+    <h1 class="typo-h1">Calendar</h1>
 
-{% assign upcoming_events = "" | split: "" %}
-{% assign past_events = "" | split: "" %}
+    {% assign upcoming_events = "" | split: "" %}
+    {% assign past_events = "" | split: "" %}
 
-{% assign current_date = site.time | date: "%s" %}
+    {% assign current_date = site.time | date: "%s" %}
 
-{% for item in site.data.events %}
-{% assign event_date = item.date | date: "%s" %}
-{% if event_date >= current_date %}
-{% assign upcoming_events = upcoming_events | push: item %}
-{% else %}
-{% assign past_events = past_events | push: item %}
-{% endif %}
-{% endfor %}
+    {% for item in site.data.events %}
+    {% assign event_date = item.date | date: "%s" %}
+    {% if event_date >= current_date %}
+    {% assign upcoming_events = upcoming_events | push: item %}
+    {% else %}
+    {% assign past_events = past_events | push: item %}
+    {% endif %}
+    {% endfor %}
 
-{% assign upcoming_events = upcoming_events | sort: "date" %}
-{% assign past_events = past_events | sort: "date" | reverse %}
+    {% assign upcoming_events = upcoming_events | sort: "date" %}
+    {% assign past_events = past_events | sort: "date" | reverse %}
 
-<section class="layout-section">
-  <h2 class="typo-h2">Upcoming events</h2>
-  {% include events.html events=upcoming_events %}
-</section>
+    <section class="layout-section">
+      <h2 class="typo-h2">Upcoming events</h2>
+      {% include events.html events=upcoming_events %}
+    </section>
 
-<section class="layout-section">
-  <h2 class="typo-h2">Past events</h2>
-  {% include events.html events=past_events %}
-</section>
+    <section class="layout-section">
+      <h2 class="typo-h2">Past events</h2>
+      {% include events.html events=past_events %}
+    </section>
+  </div>
+
+  <picture class="layout-content-end">
+    <source type="image/webp" srcset="{{ site.paths.photos }}/clementnonciaux_3.webp">
+    <img class="layout-image" src="{{ site.paths.photos }}/clementnonciaux_3.jpg" alt="">
+  </picture>
+</div>
