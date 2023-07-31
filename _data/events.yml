@@ -71,15 +71,16 @@
 
 - date: 2023-11-19
   location: |-
-    **DÉBUT** Tchaikovsky Symphony Orchestra  
+    **DÉBUT** [Tchaikovsky Symphony Orchestra](https://www.bso.ru/concerts/2023/11/19/)  
     Moscow
   program: |-
     Debussy, *La mer, trois esquisses symphoniques*  
     Saint-Saëns, *Introduction et rondo capriccioso, Op. 28*  
-    Sergey Kostylev, Violin  
     Saint-Saëns, *Bacchanale from Samson et Dalila*  
     Rachmaninoff, *3rd Piano Concerto, Op. 30*  
-    Alexei Melnikov, Piano
+  soloists: |-
+    Alexei Melnikov, Piano  
+    Sergey Kostylev, Violin 
 
 - date: 2023-10-14
   location: |-
@@ -145,8 +146,8 @@
 
 - date: 2023-03-19
   location: |-
-    **DÉBUT** [Russian National Youth Symphony Orchestra  
-    Moscow](https://meloman.ru/concert/kzch-2023-03-19-1/?setlang=en)
+    **DÉBUT** [Russian National Youth Symphony Orchestra](https://meloman.ru/concert/kzch-2023-03-19-1/?setlang=en)  
+    Moscow
   program: |-
     Ravel, *Daphnis et Chloé 2nd Suite*  
     Ravel, *Boléro*  
