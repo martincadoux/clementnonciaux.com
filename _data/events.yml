@@ -24,31 +24,32 @@
 
 - date: 2024-05-31
   location: |-
-    Orchestre région Centre-Val de Loire Tours  
+    **DÉBUT** Orchestre région Centre-Val de Loire Tours  
     Senonches, FR
   program: |-
     [*l'Olympiade musicale*](https://operadetours.fr/fr/programmation/l-olympiade-musicale-senonches-artenay)
 
 - date: 2024-06-01
   location: |-
-    Orchestre région Centre-Val de Loire Tours  
+    **DÉBUT** Orchestre région Centre-Val de Loire Tours  
     Artenay, FR
   program: |-
     [*l'Olympiade musicale*](https://operadetours.fr/fr/programmation/l-olympiade-musicale-senonches-artenay)
 
 - date: 2024-03-14
   location: |-
-    Orchestre de Picardie
+    **DÉBUT** Orchestre de Picardie
   programm: |-
 
 - date: 2024-03-12
   location: |-
-   Orchestre de Picardie
+   **DÉBUT** Orchestre de Picardie
   programm: |- 
 
 - date: 2024-03-01
   location: |-
     Russian National Youth Symphony Orchestra
+    Moscow
   program: |-
     Program TBA
 
@@ -70,7 +71,7 @@
 
 - date: 2023-11-19
   location: |-
-    Tchaikovsky Symphony Orchestra  
+    **DÉBUT** Tchaikovsky Symphony Orchestra  
     Moscow
   program: |-
     Debussy, *La mer*   
@@ -95,16 +96,19 @@
 
 - date: 2023-08-26
   location: |-
-    Russian National Orchestra  
-    [Concert within the festival ”Territoria Mira” in Kaliningrad](https://sobor39.ru/news/nashi-novosti/3291/)
+    **DÉBUT** Russian National Orchestra  
+    [Festival ”Territoria Mira”, Kaliningrad, RU](https://sobor39.ru/news/nashi-novosti/3291/)
   program: |-
-    Bizet, *L'arlésienne*  
-    Program TBA  
-    Soloists : winners of the Tchaikovsky Competition
+      Tchaikovsky, Piano Concerto No. 1, Op. 23
+      Tchaikovsky, Violin Concerto, Op. 35
+      Tchaikovsky, Pezzo Capriccioso, Op. 62
+      Tchaikovsky, Polonaise from *Eugene Onegin*
+      and many others…
+    Soloists : laureates of the XVII Internenational Tchaikovsky Competition
 
 - date: 2023-07-15
   location: |-
-    Novaya Opera Theatre  
+    **DÉBUT** Novaya Opera Theatre  
     Moscow
   program: |-
     [A. Adam, *Le postillon de Lonjumeau*](https://novayaopera.ru/en/afisha-i-bilety/performance/pochtalon-iz-lonzhyumo/)  
@@ -112,7 +116,7 @@
 
 - date: 2023-07-13
   location: |-
-    Novaya Opera Theatre  
+    **DÉBUT** Novaya Opera Theatre  
     Moscow
   program: |-
     [A. Adam, *Le postillon de Lonjumeau*](https://novayaopera.ru/en/afisha-i-bilety/performance/pochtalon-iz-lonzhyumo/)  
@@ -138,7 +142,7 @@
 
 - date: 2023-03-19
   location: |-
-    [Russian National Youth Symphony Orchestra  
+    **DÉBUT** [Russian National Youth Symphony Orchestra  
     Moscow](https://meloman.ru/concert/kzch-2023-03-19-1/?setlang=en)
   program: |-
     Ravel, *Daphnis et Chloé 2nd Suite*  
