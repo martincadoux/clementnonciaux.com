@@ -4,13 +4,15 @@
   {% for item in videos %}
   <li class="videos__item">
     <h3 class="videos__title">{{ item.title }}</h3>
-    {% if item.link %}
-    <a href="{{ item.link }}">Watch the full video on Youtube</a>
-    {% endif %}
+
     <video controls width="560" height="315">
       <source src="{{ site.paths.videos }}/{{ item.name }}.webm" type="video/webm">
       <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
     </video>
+
+    {% if item.link %}
+    <a href="{{ item.link }}">Watch the full video on Youtube</a>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
