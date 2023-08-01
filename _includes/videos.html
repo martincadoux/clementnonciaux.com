@@ -5,7 +5,7 @@
   <li class="videos__item">
     <h3 class="videos__title">{{ item.title }}</h3>
 
-    <video controls width="560" height="315">
+    <video controls poster="{{ site.paths.videos }}/{{ item.name }}.jpg" width="560" height="315">
       <source src="{{ site.paths.videos }}/{{ item.name }}.webm" type="video/webm">
       <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
     </video>
