@@ -7,7 +7,7 @@
     margin-block-end: 0.5rem;
   }
 
-  &__embed {
-    aspect-ratio: 16 / 9;
+  &__video {
+    object-fit: cover;
   }
 }
