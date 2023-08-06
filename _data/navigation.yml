@@ -1,11 +1,11 @@
 - name: About
-  link: /about.html
+  link: /about
 
 - name: Media
-  link: /media.html
+  link: /media
 
 - name: Calendar
-  link: /calendar.html
+  link: /calendar
   
 - name: Contact
-  link: /contact.html
+  link: /contact
