@@ -7,7 +7,10 @@
       {{ item.date | date_to_long_string }}
     </time>
     <p class="events__location">{{ item.location | markdownify }}</p>
-    <div class="events__program">{{ item.program | markdownify }}</div>
+    <div class="events__program events__content">{{ item.program | markdownify }}</div>
+    {% if item.soloist %}
+    <div class="events__soloist events__content">{{ item.soloist | markdownify }}</div>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
