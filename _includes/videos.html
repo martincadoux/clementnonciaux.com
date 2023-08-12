@@ -2,7 +2,7 @@
 
 <ul class="videos">
   {% for item in videos %}
-  <li class="videos__item">
+  <li class="videos__item layout-item layout-item--centered">
     <h3 class="videos__title">{{ item.title }}</h3>
 
     <video class="videos__video" controls poster="{{ site.paths.videos }}/{{ item.name }}.jpg" width="560" height="315">

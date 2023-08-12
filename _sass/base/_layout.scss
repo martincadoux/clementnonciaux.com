@@ -33,6 +33,23 @@
   }
 }
 
+.layout-item {
+  & + &::before {
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 0.1rem;
+    margin-block-end: calc(var(--layout-gap) * 2);
+    background-color: var(--color-main);
+  }
+
+  &--centered {
+    & + &::before {
+      margin-inline: auto;
+    }
+  }
+}
+
 .layout-image {
   position: relative;
   max-height: calc(100dvh - 29.2rem);

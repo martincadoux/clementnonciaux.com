@@ -8,18 +8,6 @@
     margin-block-end: 0.5rem;
   }
 
-  &__item {
-    & + &::before {
-      content: "";
-      display: block;
-      width: 10rem;
-      height: 0.1rem;
-      margin: auto;
-      margin-block-end: calc(var(--layout-gap) * 2);
-      background-color: var(--color-main);
-    }
-  }
-
   &__video {
     aspect-ratio: 16 / 9;
     object-fit: cover;
