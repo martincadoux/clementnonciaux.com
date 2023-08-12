@@ -1,4 +1,4 @@
-- date: 2024-07-15
+- date: [2024-07-11, 2024-07-13, 2024-07-15]
   location: |-
     Novaya Opera Theatre  
     Moscow
@@ -6,54 +6,32 @@
     A. Adam, *Le postillon de Lonjumeau*  
     Stage Director: Evgeny Pisarev
 
-- date: 2024-07-13
-  location: |-
-    Novaya Opera Theatre  
-    Moscow
-  program: |-
-    A. Adam, *Le postillon de Lonjumeau*  
-    Stage Director: Evgeny Pisarev
-    
-- date: 2024-07-11
-  location: |-
-    Novaya Opera Theatre  
-    Moscow
-  program: |-
-    A. Adam, *Le postillon de Lonjumeau*  
-    Director: Evgeny Pisarev
-
-- date: 2024-05-31
+- date: [2024-05-31]
   location: |-
     **DÉBUT** Orchestre région Centre-Val de Loire Tours  
     Senonches, FR
   program: |-
     [*l'Olympiade musicale*](https://operadetours.fr/fr/programmation/l-olympiade-musicale-senonches-artenay)
 
-- date: 2024-06-01
+- date: [2024-06-01]
   location: |-
     **DÉBUT** Orchestre région Centre-Val de Loire Tours  
     Artenay, FR
   program: |-
     [*l'Olympiade musicale*](https://operadetours.fr/fr/programmation/l-olympiade-musicale-senonches-artenay)
 
-- date: 2024-03-14
+- date: [2024-03-12, 2024-03-14]
   location: |-
     **DÉBUT** Orchestre de Picardie
-  programm: |-
 
-- date: 2024-03-12
-  location: |-
-   **DÉBUT** Orchestre de Picardie
-  programm: |- 
-
-- date: 2024-03-01
+- date: [2024-03-01]
   location: |-
     Russian National Youth Symphony Orchestra
     Moscow
   program: |-
     Program TBA
 
-- date: 2023-12-10
+- date: [2023-12-10]
   location: |-
     Russian National Youth Symphony Orchestra  
     Moscow
@@ -61,7 +39,7 @@
     Elgar, *Enigma Variations, Op. 36*  
     Chopin, *2nd Piano Concerto, Op. 21*
 
-- date: 2023-12-07
+- date: [2023-12-07]
   location: |-
     Russian National Youth Symphony Orchestra  
     Salekhard, RU
@@ -69,7 +47,7 @@
     Elgar, *Enigma Variations, Op. 36*  
     Chopin, *2nd Piano Concerto, Op. 21*
 
-- date: 2023-11-19
+- date: [2023-11-19]
   location: |-
     **DÉBUT** [Tchaikovsky Symphony Orchestra](https://www.bso.ru/concerts/2023/11/19/)  
     Moscow
@@ -82,7 +60,7 @@
     Alexei Melnikov, Piano  
     Sergey Kostylev, Violin
 
-- date: 2023-10-14
+- date: [2023-10-14]
   location: |-
     [Brandenburgisches Staatsorchester Frankfurt  
     Potsdam  
@@ -91,7 +69,7 @@
     Mahler, *Symphony No.4*  
     Bernstein, *Symphony No. 2 \"The Age Of Anxiety\"*
 
-- date: 2023-10-13
+- date: [2023-10-13]
   location: |-
     [Brandenburgisches Staatsorchester Frankfurt  
     Frankfurt Oder  
@@ -100,7 +78,7 @@
     Mahler, *Symphony No.4*  
     Bernstein, *Symphony No. 2 \"The Age Of Anxiety\"*
 
-- date: 2023-08-26
+- date: [2023-08-26]
   location: |-
     **DÉBUT** [Russian National Orchestra  
     Festival ”Territoria Mira”, Kaliningrad, RU](https://sobor39.ru/news/nashi-novosti/3291/)
@@ -111,9 +89,9 @@
     Tchaikovsky, *Polonaise from Eugene Onegin*  
     and many others…  
   soloist: |-
-    Laureates of the XVII Internenational Tchaikovsky Competition
+    Laureates of the XVII International Tchaikovsky Competition
 
-- date: 2023-07-15
+- date: [2023-07-13, 2023-07-15]
   location: |-
     **DÉBUT** Novaya Opera Theatre  
     Moscow
@@ -121,15 +99,7 @@
     [A. Adam, *Le postillon de Lonjumeau*](https://novayaopera.ru/en/afisha-i-bilety/performance/pochtalon-iz-lonzhyumo/)  
     Concert version
 
-- date: 2023-07-13
-  location: |-
-    **DÉBUT** Novaya Opera Theatre  
-    Moscow
-  program: |-
-    [A. Adam, *Le postillon de Lonjumeau*](https://novayaopera.ru/en/afisha-i-bilety/performance/pochtalon-iz-lonzhyumo/)  
-    Concert version
-
-- date: 2023-06-18
+- date: [2023-06-17, 2023-06-18]
   location: |-
     Neue Philharmonie Berlin
   program: |-
@@ -138,16 +108,7 @@
     Respighi, *Antiche danze ed arie per liuto (3rd suite)*  
     Holst, *St. Paul’s Suite*  
 
-- date: 2023-06-17
-  location: |-
-    Neue Philharmonie Berlin
-  program: |-
-    Haydn, *Symphony No. 44 in E minor*  
-    Mozart, *Symphony No. 28 in A Major, K.201*  
-    Respighi, *Antiche danze ed arie per liuto (3rd suite)*  
-    Holst, *St. Paul’s Suite*
-
-- date: 2023-03-19
+- date: [2023-03-19]
   location: |-
     **DÉBUT** [Russian National Youth Symphony Orchestra](https://meloman.ru/concert/kzch-2023-03-19-1/?setlang=en)  
     Moscow

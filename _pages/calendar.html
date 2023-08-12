@@ -6,32 +6,61 @@ title: Calendar - Clément Nonciaux
   <div class="layout-content-start">
     <h1 class="typo-h1">Calendar</h1>
 
+    {% assign current_date = site.time | date: "%s" %}
+    {% assign current_year = current_date | date: "%Y" %}
+
+    {% assign current_year_season_start = current_year | append: "-09-01" %}
+    {% assign past_year_season_start = current_year | minus: 1 | append: "-09-01" %}
+    {% assign current_season = "" %}
+
+    {% if current_date >= current_year_season_start %}
+    {% assign current_season = current_year_season_start | date: "%s" %}
+    {% else %}
+    {% assign current_season = past_year_season_start | date: "%s" %}
+    {% endif %}
+
     {% assign upcoming_events = "" | split: "" %}
     {% assign past_events = "" | split: "" %}
-
-    {% assign current_date = site.time | date: "%s" %}
+    {% assign archived_events = "" | split: "" %}
 
     {% for item in site.data.events %}
-    {% assign event_date = item.date | date: "%s" %}
+    {% assign event_date = item.date.last | date: "%s" %}
     {% if event_date >= current_date %}
     {% assign upcoming_events = upcoming_events | push: item %}
-    {% else %}
+    {% elsif event_date >= current_season %}
     {% assign past_events = past_events | push: item %}
+    {% else %}
+    {% assign archived_events = archived_events | push: item %}
     {% endif %}
     {% endfor %}
 
     {% assign upcoming_events = upcoming_events | sort: "date" %}
     {% assign past_events = past_events | sort: "date" | reverse %}
+    {% assign archived_events = archived_events | sort: "date" | reverse %}
 
+    {% if upcoming_events and upcoming_events.size != 0 %}
     <section class="layout-section">
       <h2 class="typo-h2">Upcoming events</h2>
-      {% include events.html events=upcoming_events %}
+      {% include events.html events = upcoming_events %}
     </section>
+    {% endif %}
 
+    {% if past_events and past_events.size != 0 %}
     <section class="layout-section">
       <h2 class="typo-h2">Past events</h2>
-      {% include events.html events=past_events %}
+      {% include events.html events = past_events %}
     </section>
+    {% endif %}
+
+    {% if archived_events and archived_events.size != 0 %}
+    <section class="layout-section">
+      <h2 class="typo-h2">Archives</h2>
+      <details>
+        <summary><u>2021 / 2022</u></summary>
+        {% include events.html events = archived_events %}
+      </details>
+    </section>
+    {% endif %}
   </div>
 
   <picture class="layout-content-end">

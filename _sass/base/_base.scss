@@ -62,3 +62,13 @@ iframe {
   max-width: 100%;
   height: auto;
 }
+
+details + details {
+  margin-block-start: var(--layout-gap);
+}
+
+summary {
+  display: inline-block;
+  margin-block-end: 1rem;
+  cursor: pointer;
+}

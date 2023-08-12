@@ -2,15 +2,24 @@
 
 <ul class="events">
   {% for item in events %}
-  <li class="events__item">
-    <time class="events__time" datetime="{{ item.date | date_to_xmlschema }}">
-      {{ item.date | date_to_long_string }}
-    </time>
-    <p class="events__location">{{ item.location | markdownify }}</p>
-    <div class="events__program events__content">{{ item.program | markdownify }}</div>
-    {% if item.soloist %}
-    <div class="events__soloist events__content">{{ item.soloist | markdownify }}</div>
-    {% endif %}
+  <li class="events__item layout-item">
+    <article class="events__details">
+      {% for date in item.date %}
+      <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
+        {{ date | date_to_long_string }}
+      </time>
+      {% endfor %}
+
+      <div class="events__location">{{ item.location | markdownify }}</div>
+
+      {% if item.program %}
+      <div class="events__program events__content">{{ item.program | markdownify }}</div>
+      {% endif %}
+
+      {% if item.soloist %}
+      <div class="events__soloist events__content">{{ item.soloist | markdownify }}</div>
+      {% endif %}
+    </article>
   </li>
   {% endfor %}
 </ul>
