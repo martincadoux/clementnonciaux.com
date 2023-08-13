@@ -1,8 +1,18 @@
 {% assign events = include.events %}
 
 <ul class="events">
+  {% assign previous_event_program = "" %}
+
   {% for item in events %}
-  <li class="events__item layout-item">
+  {% assign current_event_program = item.program %}
+  {% if forloop.index0 > 0 and current_event_program != previous_event_program %}
+  {% assign has_separator = true %}
+  {% else %}
+  {% assign has_separator = false %}
+  {% endif %}
+  {% assign previous_event_program = current_event_program %}
+
+  <li class="events__item {% if has_separator %}layout-separator {% endif %}">
     <article class="events__details">
       {% for date in item.date %}
       <time class="events__time" datetime="{{ date | date_to_xmlschema }}">

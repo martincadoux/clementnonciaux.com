@@ -18,7 +18,7 @@ title: About - Clément Nonciaux
     </nav>
 
     {% for item in site.data.biography %}
-    <section class="layout-section layout-item">
+    <section class="layout-section {% if forloop.index0 > 0 %}layout-separator{% endif %}">
       {% include biography.html bio=item %}
     </section>
     {% endfor %}

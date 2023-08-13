@@ -1,7 +1,7 @@
 .events {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--layout-gap) * 1.5);
+  gap: calc(var(--layout-gap) * 2);
 
   &__time {
     font-weight: 500;
