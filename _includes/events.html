@@ -4,32 +4,34 @@
   {% assign previous_event_program = "" %}
 
   {% for item in events %}
-  {% assign current_event_program = item.program %}
-  {% if forloop.index0 > 0 and current_event_program != previous_event_program %}
-  {% assign has_separator = true %}
-  {% else %}
-  {% assign has_separator = false %}
-  {% endif %}
-  {% assign previous_event_program = current_event_program %}
+    {% assign current_event_program = item.program %}
 
-  <li class="events__item {% if has_separator %}layout-separator {% endif %}">
-    <article class="events__details">
-      {% for date in item.date %}
-      <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
-        {{ date | date_to_long_string }}
-      </time>
-      {% endfor %}
+    {% if forloop.index0 > 0 and current_event_program != previous_event_program %}
+      {% assign has_separator = true %}
+    {% else %}
+      {% assign has_separator = false %}
+    {% endif %}
 
-      <div class="events__location">{{ item.location | markdownify }}</div>
+    {% assign previous_event_program = current_event_program %}
 
-      {% if item.program %}
-      <div class="events__program events__content">{{ item.program | markdownify }}</div>
-      {% endif %}
+    <li class="events__item {% if has_separator %}layout-separator {% endif %}">
+      <article class="events__details">
+        {% for date in item.date %}
+          <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
+            {{ date | date_to_long_string }}
+          </time>
+        {% endfor %}
 
-      {% if item.soloist %}
-      <div class="events__soloist events__content">{{ item.soloist | markdownify }}</div>
-      {% endif %}
-    </article>
-  </li>
+        <div class="events__location">{{ item.location | markdownify }}</div>
+
+        {% if item.program %}
+          <div class="events__program events__content">{{ item.program | markdownify }}</div>
+        {% endif %}
+
+        {% if item.soloist %}
+          <div class="events__soloist events__content">{{ item.soloist | markdownify }}</div>
+        {% endif %}
+      </article>
+    </li>
   {% endfor %}
 </ul>

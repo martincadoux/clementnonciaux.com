@@ -3,11 +3,11 @@
 <nav class="navigation">
   <ul class="navigation__list">
     {% for item in navigation %}
-    <li class="navigation__item {% if page.url == item.link %}navigation__item--current{% endif %}">
-      <a class="navigation__link" href="{{ item.link }}">
-        {{- item.name -}}
-      </a>
-    </li>
+      <li class="navigation__item {% if page.url == item.link %}navigation__item--current{% endif %}">
+        <a class="navigation__link" href="{{ item.link }}">
+          {{- item.name -}}
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </nav>

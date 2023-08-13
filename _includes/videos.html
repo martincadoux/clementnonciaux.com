@@ -2,17 +2,17 @@
 
 <ul class="videos">
   {% for item in videos %}
-  <li class="videos__item {% if forloop.index0 > 0 %}layout-separator layout-separator--centered{% endif %}">
-    <h3 class="videos__title">{{ item.title }}</h3>
+    <li class="videos__item {% if forloop.index0 > 0 %}layout-separator layout-separator--centered{% endif %}">
+      <h3 class="videos__title">{{ item.title }}</h3>
 
-    <video class="videos__video" controls poster="{{ site.paths.videos }}/{{ item.name }}.jpg" width="560" height="315">
-      <source src="{{ site.paths.videos }}/{{ item.name }}.webm" type="video/webm">
-      <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
-    </video>
+      <video class="videos__video" controls poster="{{ site.paths.videos }}/{{ item.name }}.jpg" width="560" height="315">
+        <source src="{{ site.paths.videos }}/{{ item.name }}.webm" type="video/webm">
+        <source src="{{ site.paths.videos }}/{{ item.name }}.mp4" type="video/mp4">
+      </video>
 
-    {% if item.link %}
-    <a class="videos__link" href="{{ item.link }}">Watch the full video on Youtube</a>
-    {% endif %}
-  </li>
+      {% if item.link %}
+        <a class="videos__link" href="{{ item.link }}">Watch the full video on Youtube</a>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>

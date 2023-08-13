@@ -2,14 +2,14 @@
 
 <ul class="photos">
   {% for item in photos %}
-  <li class="photos__item">
-    <a class="photos__link" href="{{ site.paths.photos }}/original/{{ item.name }}.jpg">
-      <picture>
-        <source type="image/webp" srcset="{{ site.paths.photos }}/{{ item.name }}.webp">
-        <img class="photos__image" src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}"
-          width="320" height="240" loading="lazy">
-      </picture>
-    </a>
-  </li>
+    <li class="photos__item">
+      <a class="photos__link" href="{{ site.paths.photos }}/original/{{ item.name }}.jpg">
+        <picture>
+          <source type="image/webp" srcset="{{ site.paths.photos }}/{{ item.name }}.webp">
+          <img class="photos__image" src="{{ site.paths.photos }}/{{ item.name }}.jpg" alt="{{ item.description }}"
+            width="320" height="240" loading="lazy">
+        </picture>
+      </a>
+    </li>
   {% endfor %}
 </ul>
