@@ -1,17 +1,21 @@
 - name: bolero
   title: |-
-    Ravel, Boléro
+    Ravel, Boléro  
+    Russian National Youth Symphony Orchestra
 
 - name: rock
   title: |-
-    Rachmaninov, The Rock Op.7
+    Rachmaninov, The Rock Op.7  
+    State Symphony Capella of Russia
   link: https://youtu.be/jiLtSDr9byM
 
 - name: daphnis
   title: |-
-    Ravel, Daphnis et Chloé
+    Ravel, Daphnis et Chloé  
+    Tchaikovsky Symphony Orchestra
   link: https://youtu.be/pCdh3VrVOr4
 
 - name: polonaise
   title: |-
-    Tchaikovsky, Polonaise from Eugene Onegin
+    Tchaikovsky, Polonaise from Eugene Onegin  
+    Russian National Orchestra
