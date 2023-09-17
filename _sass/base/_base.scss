@@ -1,5 +1,5 @@
 html {
-  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   font-size: 62.5%;
 }
 
@@ -13,11 +13,6 @@ body {
   color: var(--color-content);
   font-size: 1.6rem;
   font-weight: 400;
-
-  &.dark {
-    --color-background: rgb(0, 0, 0);
-    --color-content: var(--color-main);
-  }
 }
 
 h1,
