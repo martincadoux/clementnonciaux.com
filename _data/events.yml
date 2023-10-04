@@ -71,16 +71,38 @@
   soloist: |-
     Alexei Melnikov, Piano  
     Sergey Kostylev, Violin
-    
-- date: [2023-10-31]
+
+- date: [2023-11-05]
   location: |-
-    **DÉBUT**  
     Krasnoyarsk Philharmonic  
-    Krasnoyarsk, RU  
-    Closure concert of the Dmitri Hvorostovsky Festival
+    Moscow, [Great Hall of the Moscow Conservatory](https://meloman.ru/concert/bzk-2023-11-05/)
   soloist: |-
     Aida Garifullina, Soprano  
     Jihoon Son, Tenor
+  program: |-
+    Program TBA    
+      
+- date: [2023-10-03]
+  location: |-
+    **DÉBUT**  
+    Novossibirsk Philharmonic  
+    Novossibirsk, RU  
+  soloist: |-
+    Aida Garifullina, Soprano
+  program: |-
+    Program TBA    
+
+- date: [2023-10-31]
+  location: |-
+    **DÉBUT**  
+    [Krasnoyarsk Philharmonic  
+    Krasnoyarsk, RU  
+    Closure concert of the Dmitri Hvorostovsky Festival](https://krasfil.ru/events/2862-Festival-iskusstv-KHvorostovskii-Aida-Garifullina-Son-CHi-KHun-Dirizher-Kleman-~?idEvent=16511)
+  soloist: |-
+    Aida Garifullina, Soprano  
+    Jihoon Son, Tenor
+  program: |-
+    Program TBA
   
 - date: [2023-10-14]
   location: |-
