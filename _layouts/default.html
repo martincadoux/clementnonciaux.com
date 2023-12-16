@@ -14,7 +14,10 @@
 
 <body class="{{ page.height }}" style="color: {{ page.color }}">
   <header class="header layout-container">
-    <a class="header__home" href="/">Clément Nonciaux</a>
+    <a class="header__home" href="/">
+      <span class="header__label">Clément Nonciaux</span>
+      <img class="header__logo" src="/assets/images/logo.svg" alt="" width="60" height="60">
+    </a>
     {% include navigation.html %}
   </header>
 

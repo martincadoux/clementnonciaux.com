@@ -63,7 +63,9 @@
   flex: 0 0 auto;
 
   &__home {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: var(--layout-gap);
     margin-block-end: var(--layout-gap);
     font-size: 3rem;
     font-weight: 500;
@@ -73,6 +75,14 @@
     @media (min-width: 40em) {
       font-size: 4.4rem;
     }
+  }
+
+  &__label {
+    flex: 0 1 auto;
+  }
+
+  &__logo {
+    flex: 0 0 auto;
   }
 }
 
