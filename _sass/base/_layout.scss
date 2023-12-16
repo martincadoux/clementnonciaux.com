@@ -63,7 +63,7 @@
   flex: 0 0 auto;
 
   &__home {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: var(--layout-gap);
     margin-block-end: var(--layout-gap);
