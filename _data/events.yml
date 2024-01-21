@@ -30,31 +30,45 @@
   program: |-
     [l'Olympiade musicale](https://operadetours.fr/fr/programmation/l-olympiade-musicale-senonches-artenay)
 
+- date: [2024-03-19]
+  location: |- 
+    [Svetlanov Symphony Orchestra  
+    Moscow, Tchaikovsky Concert Hall](https://meloman.ru/concert/kzch-2024-04-03/)
+  program: |-
+    Berlioz, Symphonie fantastique    
+    Brahms, Violin Concerto
+  soloist: |-
+    Pavel Milyukov
+
+- date: [2024-03-23]
+  location: |-
+    **DÉBUT**  
+    Novossibirsk Philharmonic Orchestra  
+    Novossibirsk, RU
+  program: |-
+    Orff, Carmina Burana
+
+- date: [2024-03-19]
+  location: |-
+    **DÉBUT**  
+    Svetlanov Symphony Orchestra  
+    Moscow, Tchaikovsky Concert Hall  
+    [XVIII Moscow International Festival Guitar Virtuosi  
+    Opening of the festival](https://meloman.ru/concert/kzch-2024-03-19/)
+  program: |-
+    Rodrigo, Concierto de Aranjuez  
+    Koshkin, Dies Irae (World Premiere)  
+    Costa, Assad, Ilhas Concertantes (Russian Premiere)
+  soloist: |-
+    Yamandu Costa, Guitar  
+    Pablo Garibay, Guitar  
+    Artyom Dervoed, Guitar
+
 - date: [2024-03-12, 2024-03-14]
   location: |-
     **DÉBUT**  
     Orchestre de Picardie  
     Education concerts
-  program: |-
-    Rossini, Il barbiere di Siviglia, Sinfonia  
-    Gluck, Iphigénie en Aulide, Ouverture  
-    Debussy, Arabesque No.1  
-    Rachmaninov, Scherzo in D minor  
-    Haydn, Symphony No.104
-
-- date: [2024-04-01]
-  location: |-
-    Russian National Youth Symphony Orchestra  
-    Moscow, [Tchaikovsky Concert Hall](https://meloman.ru/hall/koncertnyj-zal-chajkovskogo/)
-  program: |-
-    Program TBA
-
-- date: [2024-03-23]
-  location: |-
-   **DÉBUT**  
-   Novossibirsk, RU
-  program: |-
-    Orff, Carmina Burana
 
 - date: [2024-01-20]
   location: |-
@@ -83,6 +97,8 @@
     Elgar, Enigma Variations  
     Ravel, Le tombeau de Couperin  
     Chopin, Piano Concerto No.2
+  soloist: |-
+    Denis Matsuev, Piano
 
 - date: [2023-12-04]
   location: |-
