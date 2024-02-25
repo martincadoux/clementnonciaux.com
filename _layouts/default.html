@@ -8,7 +8,7 @@
     content="Clément Nonciaux, French conductor living in Berlin. Second Prize winner of the Rachmaninoff International Competition 2022">
   <title>{{ page.title }}</title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -20,7 +20,7 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body class="{{ page.height }}" style="color: {{ page.color }}">
+<body id="{{ page.id }}">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K83WLRVF"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -28,7 +28,7 @@
   <header class="header layout-container">
     <a class="header__home" href="/">
       <span class="header__label">Clément Nonciaux</span>
-      <img class="header__logo" src="/assets/images/logo_rond.svg" alt="" width="60" height="60">
+      <img class="header__logo" src="/assets/images/logo/logo_rond.svg" alt="" width="60" height="60">
     </a>
     {% include navigation.html %}
   </header>

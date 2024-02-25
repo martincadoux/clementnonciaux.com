@@ -15,23 +15,6 @@
   max-width: 60rem;
 }
 
-.layout-content-end {
-  display: none;
-  position: relative;
-  flex: 0 1 auto;
-
-  &::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    box-shadow: inset 1rem -1rem 2rem #000;
-  }
-
-  @media (min-width: 40em) {
-    display: block;
-  }
-}
-
 .layout-separator {
   &::before {
     content: "";
@@ -83,13 +66,13 @@
 
   &__logo {
     flex: 0 0 auto;
+    filter: drop-shadow(rgb(0, 0, 0) 0.5rem 0.5rem 1rem);
   }
 }
 
 .main {
+  flex-grow: 1;
   position: relative;
-  min-height: var(--layout-content-height);
-  overflow: hidden;
 
   .full-height & {
     flex-basis: 0;
@@ -115,6 +98,7 @@
 
 .languages {
   margin-block-end: calc(var(--layout-gap) * 2);
+  background-image: var(--background-gradient-about);
 
   &__list {
     display: flex;

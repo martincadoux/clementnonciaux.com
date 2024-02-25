@@ -4,38 +4,6 @@
   align-items: center;
   height: 100%;
 
-  &__picture {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-
-    @media (min-width: 40em) {
-      flex-direction: row;
-      height: auto;
-      max-height: 100%;
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      box-shadow: inset 0 0 1rem 0.5rem #000;
-    }
-  }
-
-  &__image {
-    flex-grow: 1;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    object-position: top 0 left 40%;
-
-    @media (min-width: 40em) {
-      object-fit: contain;
-      object-position: left 0;
-    }
-  }
-
   &__text {
     @media (min-width: 48em) {
       position: absolute;

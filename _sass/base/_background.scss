@@ -1,0 +1,36 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &#home {
+    background-color: rgb(144, 126, 193);
+    background-image: url('/assets/images/clement/clement_4.webp'), linear-gradient(to right, #BBAFE1 20%, #AFA0D7 30%, #A193CE);
+    background-position: top max(20rem, 100%) left, center;
+    background-size: auto min(max(30rem, calc(100dvh - 20rem)), 87.2rem), cover;
+  }
+
+  &#about {
+    background-color: rgb(172, 152, 212);
+    background-image: url('/assets/images/clement/clement_1.webp'), linear-gradient(to left, #C6ABDE, #B2A3DC, #A495CE);
+    background-position: top 20rem left max(62rem, 100%), center;
+    background-size: auto min(max(30rem, calc(100dvh - 20rem)), 70rem), cover;
+  }
+
+  &#calendar {
+    background-color: rgb(212, 126, 156);
+    background-image: url('/assets/images/clement/clement_2.webp'), linear-gradient(135deg, #D17B96, #DD88A7, #ECA7C4);
+    background-position: bottom 2rem left max(62rem, calc(100% - 2rem)), center;
+    background-size: auto min(max(30rem, calc(100dvh - 5rem)), 94.4rem), cover;
+  }
+
+  &#contact{
+    background-color: rgb(212, 126, 156);
+    background-image: url('/assets/images/clement/clement_3.webp'), linear-gradient(135deg, #D681A0, #DE8BA9, #EDAFC8);
+    background-position: top max(22rem, 100%) right 0, center;
+    background-size: auto min(max(30rem, calc(100dvh - 10rem)), 87.2rem), cover;
+  }
+
+  &#media {
+    background-color: rgb(0, 0, 0);
+  }
+}
