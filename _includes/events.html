@@ -15,11 +15,17 @@
 
     <li class="events__item {% if has_marker %} events__item--marker{% endif %}">
       <article class="events__details">
-        {% for date in item.date %}
-          <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
-            {{ date | date_to_long_string }}
-          </time>
-        {% endfor %}
+        <div class="events__infos">
+          {% for date in item.date %}
+            <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
+              {{ date | date_to_long_string }}
+            </time>
+          {% endfor %}
+
+          {% if item.type %}
+            <span class="events__type">{{ item.type }}</span>
+          {% endif %}
+        </div>
 
         <div class="events__location">{{ item.location | markdownify }}</div>
 

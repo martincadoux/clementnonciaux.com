@@ -12,12 +12,26 @@
     }
   }
 
+  &__infos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: calc(var(--layout-gap) / 2);
+  }
+
   &__time {
     font-weight: 500;
 
     & + &::before {
       content: "- "
     }
+  }
+
+  &__type {
+    background-color: var(--color-main);
+    border-radius: 0.8rem;
+    color: var(--color-calendar);
+    padding: 0.2rem 0.8rem;
   }
 
   &__content {
