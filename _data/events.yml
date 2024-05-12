@@ -103,9 +103,8 @@
     **DÉBUT**  
     Nizhny Novgorod State Academic Opera and Ballet Theater  
     Nizhny Novgorod, RU
-    [Festival Strelka](http://art-strelka.ru)
   program: |-
-    Gala Concert Kurt Weill  
+    Kurt Weill :
     Die Dreigroschenoper  
     Happy End  
     Marie Galante
@@ -140,6 +139,7 @@
     Rachmaninov, The Rock
 
 - date: [2024-05-05]
+  type: Opera
   location: |-
     **DÉBUT**  
     Perm Opera and Ballet Theater, RU
@@ -147,6 +147,7 @@
     Massenet, Cendrillon
 
 - date: [2024-04-03]
+  type: Concert
   location: |- 
     [Svetlanov Symphony Orchestra  
     Moscow, Tchaikovsky Concert Hall](https://meloman.ru/concert/kzch-2024-04-03/)
@@ -157,15 +158,17 @@
     Pavel Milyukov, Violin
 
 - date: [2024-03-29]
+  type: Education
   location: |-
     Concert with the students of Novosibirsk Conservatory
 
 - date: [2024-03-24]
+  type: Education
   location: |-
-    **TEACHING**  
     Master-class with the students of Novosibirsk Conservatory
     
 - date: [2024-03-31]
+  type: Gala
   location: |-
     **DÉBUT**  
     Chamber Orchestra of Novosibirsk State Philharmonic  
@@ -180,6 +183,7 @@
     And friends…
 
 - date: [2024-03-31]
+  type: Concert
   location: |-
     **DÉBUT**  
     Novosibirsk Philharmonic Orchestra  
@@ -191,6 +195,7 @@
     Orff, Carmina Burana
 
 - date: [2024-03-19]
+  type: Concert
   location: |-
     **DÉBUT**  
     Svetlanov Symphony Orchestra  
@@ -207,12 +212,14 @@
     Artyom Dervoed, Guitar
 
 - date: [2024-03-12, 2024-03-14]
+  type: Education
   location: |-
     **DÉBUT**  
     Orchestre de Picardie  
     Education concerts
 
 - date: [2024-01-20]
+  type: Film Music
   location: |-
     [Mach 36, Déols, FR](https://www.mach36.fr/evenement/les-plus-grandes-musiques-de-films/)  
     Les solistes de Monte-Carlo
@@ -220,6 +227,7 @@
     Les plus grandes musiques de films, Hans Zimmer et John Williams
 
 - date: [2023-12-19]
+  type: Gala
   location: |-
     Russian National Orchestra  
     Moscow, Tchaikovsky Concert Hall  
@@ -232,6 +240,7 @@
     and many others…
 
 - date: [2023-12-10]
+  type: Concert
   location: |-
     Russian National Youth Symphony Orchestra  
     Moscow, [Tchaikovsky Concert Hall](https://meloman.ru/hall/koncertnyj-zal-chajkovskogo/)
@@ -243,17 +252,18 @@
     Denis Matsuev, Piano
 
 - date: [2023-12-04]
+  type: Gala
   location: |-
     **DÉBUT**  
     Tyumen Philharmonic Orchestra  
     Tyumen, RU
-  program: |-  
-    Gala concert  
+  program: |-    
     Chopin, Piano Concerto No. 2  
     Schumann, Piano Concerto  
     and many others…
 
 - date: [2023-11-19]
+  type: Concert
   location: |-
     **DÉBUT**  
     [Tchaikovsky Symphony Orchestra](https://www.bso.ru/concerts/2023/11/19/)  
@@ -268,6 +278,7 @@
     Sergey Kostylev, Violin
 
 - date: [2023-11-05]
+  type: Gala
   location: |-
     [Krasnoyarsk Philharmonic  
     Moscow, Great Hall of the Moscow Conservatory  
@@ -278,6 +289,7 @@
     Irina Shishkova, Mezzo
       
 - date: [2023-11-03]
+  type: Gala
   location: |-
     **DÉBUT**  
     Novosibirsk Academic Opera and Ballet Theater Orchestra  
@@ -290,6 +302,7 @@
     Irina Shishkova, Mezzo
 
 - date: [2023-10-31]
+  type: Gala
   location: |-
     **DÉBUT**  
     [Krasnoyarsk Philharmonic  
@@ -319,6 +332,7 @@
     Bernstein, Symphony No.2 \"The Age Of Anxiety\"
 
 - date: [2023-08-26]
+  type: Gala
   location: |-
     **DÉBUT**  
     [Russian National Orchestra  
@@ -334,8 +348,9 @@
     Laureates of the XVII International Tchaikovsky Competition
 
 - date: [2023-07-13, 2023-07-15]
+  type: Opera
   location: |-
-    **DÉBUT**  
+    **DEBUT**  
     Novaya Opera Theatre  
     Moscow
   program: |-
@@ -343,6 +358,7 @@
     Concert version
 
 - date: [2023-06-17, 2023-06-18]
+  type: Concert
   location: |-
     Neue Philharmonie Berlin
   program: |-
@@ -352,6 +368,7 @@
     Holst, St. Paul’s Suite  
 
 - date: [2023-03-19]
+  type: Concert
   location: |-
     **DÉBUT**  
     [Russian National Youth Symphony Orchestra](https://meloman.ru/concert/kzch-2023-03-19-1/?setlang=en)  
