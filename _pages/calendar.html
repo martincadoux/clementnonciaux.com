@@ -46,14 +46,14 @@ id: calendar
     {% endif %}
 
     {% if past_events and past_events.size != 0 %}
-      <section class="layout-section">
+      <section class="layout-section layout-separator">
         <h2 class="typo-h2">Past events</h2>
         {% include events.html events = past_events %}
       </section>
     {% endif %}
 
     {% if archived_events and archived_events.size != 0 %}
-      <section class="layout-section">
+      <section class="layout-section layout-separator">
         <h2 class="typo-h2">Archives</h2>
         <details>
           <summary><u>2022 / 2023</u></summary>

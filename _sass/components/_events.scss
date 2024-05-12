@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: calc(var(--layout-gap) * 2);
+  padding-inline-start: 1.8rem;
+
+  &__item {
+    list-style-type: none;
+    
+    &--marker {
+      list-style-type: disc;
+    }
+  }
 
   &__time {
     font-weight: 500;

@@ -6,15 +6,14 @@
   {% for item in events %}
     {% assign current_event_program = item.program %}
 
-    {% if forloop.index0 > 0 and current_event_program != previous_event_program %}
-      {% assign has_separator = true %}
+    {% if current_event_program != previous_event_program %}
+      {% assign has_marker = true %}
     {% else %}
-      {% assign has_separator = false %}
+      {% assign has_marker = false %}
     {% endif %}
-
     {% assign previous_event_program = current_event_program %}
 
-    <li class="events__item {% if has_separator %}layout-separator {% endif %}">
+    <li class="events__item {% if has_marker %} events__item--marker{% endif %}">
       <article class="events__details">
         {% for date in item.date %}
           <time class="events__time" datetime="{{ date | date_to_xmlschema }}">
