@@ -14,6 +14,13 @@
     Moscow
   program: |-
     Schubert symphonies    
+
+- date: [2024-11-24]
+  type: Opera
+  location: |-
+    Perm Opera and Ballet Theater, RU
+  program: |-
+    Massenet, Cendrillon
     
 - date: [2024-10-25]
   type: Opera
@@ -32,6 +39,17 @@
   program: |-
     Saint-Saëns, 3rd Symphony  
     Tchaikovsky, Piano Concerto No.1
+
+- date: [2024-09-24]
+  type: Concert
+  location: |-
+    Russian National Orchestra  
+    Moscow, Tchaikovsky Concert Hall
+  program: |-
+    Messiaen, Hymne au Saint-Sacrement  
+    Caplet, Épiphanie, Fresque musicale for Cello  
+  soloist: |-
+    Alexander Rudin, Cello
 
 - date: [2024-09-22]
   type: Concert
