@@ -1,3 +1,11 @@
+- date: [2025-05-08]
+  type: Concert
+  location: |- 
+    Novaya Opera Theatre  
+    Moscow
+  program: |-
+    Britten, War Requiemd   
+
 - date: [2025-03-07]
   type: Concert
   location: |-
