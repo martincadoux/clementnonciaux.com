@@ -7,6 +7,15 @@
 - name: clementpuzzle_3
   description: Clément Nonciaux shooting in Taïwan.
 
+- name: portait_1
+  description: Portrait of Clément Nonciaux.
+
+- name: portait_2
+  description: Portrait of Clément Nonciaux.
+
+- name: portait_3
+  description: Portrait of Clément Nonciaux.
+
 - name: clementnonciaux_7
   description: Clément Nonciaux conducting.
 
@@ -23,15 +32,6 @@
   description: Clément Nonciaux conducting.
 
 - name: nonciauxblue3
-  description: Clément Nonciaux conducting.
-
-- name: nonciauxgreen1
-  description: Clément Nonciaux conducting.
-
-- name: nonciauxgreen2
-  description: Clément Nonciaux conducting.
-
-- name: nonciauxgreen3
   description: Clément Nonciaux conducting.
 
 - name: nonciauxsmoking1
