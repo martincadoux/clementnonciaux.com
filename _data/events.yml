@@ -6,6 +6,14 @@
   program: |-
     Britten, War Requiem   
 
+- date: [2025-03-14]
+  type: Concert
+  location: |- 
+    Kaliningrad Symphony Orchestra    
+    Kaliningrad
+  program: |-
+    Program TBA  
+
 - date: [2025-03-07]
   type: Concert
   location: |-
@@ -21,7 +29,18 @@
     Novaya Opera Theatre  
     Moscow
   program: |-
-    Schubert symphonies   
+    Schubert symphonies  
+
+- date: [2025-02-07]
+  type: Concert
+  location: |-
+    Universität der Künste  
+    Berlin
+  program: |-
+    Assistant to Karl‐Heinz Steffens  
+    Debussy, La mer  
+    Schumann, 3rd Symphony  
+    Elgar, Cello Concerto  
 
 - date: [2024-12-14, 2024-12-15]
   type: Opera
@@ -31,7 +50,6 @@
   program: |-
     Gounod, Roméo et Juliette  
     
-
 - date: [2024-11-24]
   type: Opera
   location: |-
