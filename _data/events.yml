@@ -6,14 +6,27 @@
   program: |-
     Britten, War Requiem   
 
+- date: [2024-04-08]
+  type: Concert
+  location: |-
+    Tatarstan National Symphony Orchestra    
+    Kazan, RU
+  program: |-
+  Fauré, Requiem  
+  TBA
+
 - date: [2025-03-14]
   type: Concert
   location: |- 
+    **DÉBUT**  
     Kaliningrad Symphony Orchestra    
     Kaliningrad
   program: |-
-    Program TBA  
-
+    Rimsky-Korsakov, Antar  
+    Debussy, Prélude à l'après-midi d'un faune  
+    Fauré, Pelléas et Mélisande  
+    Saint-Saëns, Danse macabre  
+    
 - date: [2025-03-07]
   type: Concert
   location: |-
@@ -21,7 +34,10 @@
     Moscow, Tchaikovsky Concert Hall
   program: |-
     Ravel 150th Jubilee Concert  
-    Program TBA
+    Daphnis et Chloé complete ballet  
+    Concerto en sol  
+    Valses nobles et sentimentales  
+    TBA
 
 - date: [2025-02-14]
   type: Concert
