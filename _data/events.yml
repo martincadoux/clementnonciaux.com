@@ -83,17 +83,21 @@
   program: |-
     Massenet, Cendrillon
 
-- date: [2025-04-08]
+- date: [2025-04-17]
   type: Concert
   location: |-
-    **DÉBUT**  
-    National Philharmonic Orchestra of Russia      
-    Moscow, Tchaikovsky Concert Hall
+   Münchner Symphoniker  
+   Munich, DE
   program: |-
-    Fauré, Requiem  
-    Debussy, Nocturnes  
-    Debussy, Sarabande  
-    Saint-Saëns, Danse macabre 
+    Assistant to Steven Sloane
+
+- date: [2025-04-10]
+  type: Concert
+  location: |-
+   Bochumer Symphoniker  
+   Bochum, DE
+  program: |-
+    Assistant to Steven Sloane
 
 - date: [2025-03-14]
   type: Concert
