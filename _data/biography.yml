@@ -1,6 +1,6 @@
 # ENGLISH
 - tag: en
-  language: English
+  language: EN
   content: |-
     > Clément Nonciaux has an innate talent for seamlessly blending reason and emotion. It is his trademark.
     >
@@ -18,7 +18,7 @@
 
 # FRENCH
 - tag: fr
-  language: Français
+  language: FR
   content: |-
     > « Clément Nonciaux a un talent inné pour marier harmonieusement raison et émotion. C’est sa marque de fabrique. »
     >
@@ -41,7 +41,7 @@
 
 # RUSSIAN
 - tag: ru
-  language: Русский
+  language: РУ
   content: |-
     > Дирижер Нонсьё вообще умеет органично сочетать разум и чувства. Собственно говоря, это его отличительная манера
     >
@@ -63,7 +63,7 @@
     
 # GERMAN
 - tag: de
-  language: Deutsch
+  language: DE
   content: |-
     > Clément Nonciaux verfügt über ein angeborenes Talent, Vernunft und Emotionen nahtlos zu verbinden. Das ist sein Markenzeichen.
     >
@@ -81,7 +81,7 @@
 
 # ITALIAN
 - tag: it
-  language: Italiano
+  language: IT
   content: |-
     > Clément Nonciaux ha un talento innato per combinare armoniosamente ragione ed emozione. È il suo marchio distintivo.
     >
