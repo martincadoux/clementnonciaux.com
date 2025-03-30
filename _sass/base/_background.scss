@@ -32,5 +32,15 @@ body {
 
   &#media {
     background-color: var(--color-media);
+
+    .header {
+      background-image: url('/assets/images/clement/clement_beach_portrait.webp');
+      color: var(--color-media);
+
+      @media (min-width: 40em) {
+        background-image: url('/assets/images/clement/clement_beach_landscape.webp');
+        background-position: center;
+      }
+    }
   }
 }

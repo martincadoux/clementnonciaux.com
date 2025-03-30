@@ -68,6 +68,15 @@
     flex: 0 0 auto;
     filter: drop-shadow(rgb(0,0,0) 0.5rem 0.5rem 2rem);
   }
+
+  &--full {
+    height: 100dvh;
+    margin: calc(var(--layout-gap) * -1);
+    margin-block-end: 0;
+    padding: calc(var(--layout-gap));
+    background-position: top;
+    background-size: cover;
+  }
 }
 
 .main {

@@ -25,12 +25,14 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K83WLRVF"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <header class="header layout-container">
-    <a class="header__home" href="/">
-      <span class="header__label">Clément Nonciaux</span>
-      <img class="header__logo" src="/assets/images/logo/logo_rond.svg" alt="" width="60" height="60">
-    </a>
-    {% include navigation.html %}
+  <header class="header {% if page.header == 'full' %}header--full{% endif %}">
+    <div class="header__content layout-container">
+      <a class="header__home" href="/">
+        <span class="header__label">Clément Nonciaux</span>
+        <img class="header__logo" src="/assets/images/logo/logo_rond.svg" alt="" width="60" height="60">
+      </a>
+      {% include navigation.html %}
+    </div>
   </header>
 
   <main class="main layout-container">
