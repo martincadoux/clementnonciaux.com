@@ -11,7 +11,8 @@ id: about
         {% for item in site.data.biography %}
           <li class="languages__item">
             <a href="#{{ item.tag }}">
-              {{ item.language }}
+              <span class="visually-hidden">{{ item.language }}</span>
+              <span aria-hidden>{{ item.abbreviation }}</span>
             </a>
           </li>
         {% endfor %}
