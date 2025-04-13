@@ -18,9 +18,36 @@ body {
 
   &#calendar {
     background-color: var(--color-calendar);
-    background-image: url('/assets/images/clement/clement_2.webp'), linear-gradient(135deg, #D17B96, #DD88A7, #ECA7C4);
-    background-position: bottom 2rem left max(62rem, calc(100% - 2rem)), center;
-    background-size: auto min(max(30rem, calc(100dvh - 5rem)), 94.4rem), cover;
+    background-image: linear-gradient(135deg, #D17B96, #DD88A7, #ECA7C4);
+    background-position: center;
+    background-size: cover;
+
+    .layout-content {
+      flex-direction: column;
+      gap: var(--layout-gap);
+
+      @media (min-width: 40em) {
+        flex-direction: row;
+      }
+    }
+
+    @media (min-width: 40em) {
+      .layout-content-start {
+        flex: 1 1 0;
+      }
+
+      .layout-content-end {
+        flex: 1 1 0;
+        position: sticky;
+        top: 20vh;
+        min-width: 0;
+      }
+
+      .layout-image {
+        height: 100vh;
+        object-fit: contain;
+      }
+    }
   }
 
   &#contact{

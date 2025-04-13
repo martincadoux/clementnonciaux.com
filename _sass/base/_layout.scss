@@ -32,12 +32,6 @@
   }
 }
 
-.layout-image {
-  position: relative;
-  max-height: calc(100dvh - 29.2rem);
-  z-index: -1;
-}
-
 .layout-section + .layout-section {
   margin-block-start: calc(var(--layout-gap) * 2);
 }
