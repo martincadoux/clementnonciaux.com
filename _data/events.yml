@@ -4,7 +4,9 @@
     Novaya Opera Theatre  
     Moscow
   program: |-
-    Program TBA
+    Shostakovich, Symphony No. 14  
+    Britten, Four Sea Interludes  
+    Britten, Double Concerto for Violin & Viola
 
 - date: [2026-03-26]
   type: Concert
@@ -75,14 +77,28 @@
   program: |-
     Massenet, Cendrillon
 
+- date: [2025-05-30, 2025-06-0]
+  type: Masterclass
+  location: |-
+    Bolshoi Theatre, Moscow  
+    Young Artists Opera Programme
+  program: |-
+    French opera repertoire  
+
 - date: [2025-05-29]
   type: Concert
   location: |-
     Russian National Orchestra  
     Moscow, Great Hall of the Conservatory
   program: |-
-    Program TBA 
-
+    Dukas, L'apprenti Sorcier  
+    Ravel, Concerto en Sol  
+    Bizet, Carmen Suite  
+    Berlioz, Carnaval Romain Ouverture  
+    Saint-Saëns, Danse Macabre  
+    Saint-Saëns, Bacchanale  
+    Ravel, Bolero
+    
 - date: [2025-05-10]
   type: Concert
   location: |-
