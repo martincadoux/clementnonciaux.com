@@ -1,17 +1,14 @@
-- name: clementpuzzle_1
-  description: Clément Nonciaux shooting in Taïwan.
-
-- name: clementpuzzle_2
-  description: Clément Nonciaux shooting in Taïwan.
-
-- name: clementpuzzle_3
-  description: Clément Nonciaux shooting in Taïwan.
-
 - name: portait_1
   description: Portrait of Clément Nonciaux.
-
+  
+- name: nonciauxblue2
+  description: Clément Nonciaux conducting.
+  
 - name: portait_2
   description: Portrait of Clément Nonciaux.
+
+- name: clementnonciaux_6
+  description: Clément Nonciaux conducting the Mariinsky Orchestra.
 
 - name: portait_3
   description: Portrait of Clément Nonciaux.
@@ -19,35 +16,37 @@
 - name: clementnonciaux_7
   description: Clément Nonciaux conducting.
 
+- name: clementnonciaux_4
+  description: Clément Nonciaux with the National Youth Orchestra of Russia.
+
 - name: clementnonciaux_2
+  description: Clément Nonciaux conducting.
+
+- name: nonciauxsmoking1
+  description: Clément Nonciaux conducting.
+  
+- name: clementpuzzle_1
+  description: Clément Nonciaux shooting in Taïwan.
+
+- name: nonciauxblue1
   description: Clément Nonciaux conducting.
 
 - name: clementnonciaux_3
   description: Clément Nonciaux conducting.
 
-- name: nonciauxblue1
-  description: Clément Nonciaux conducting.
-
-- name: nonciauxblue2
-  description: Clément Nonciaux conducting.
+- name: clementpuzzle_3
+  description: Clément Nonciaux shooting in Taïwan.
 
 - name: nonciauxblue3
-  description: Clément Nonciaux conducting.
-
-- name: nonciauxsmoking1
   description: Clément Nonciaux conducting.
 
 - name: nonciauxsmoking2
   description: Clément Nonciaux conducting.
 
-- name: nonciauxsmoking3
-  description: Clément Nonciaux conducting.
-
-- name: clementnonciaux_4
-  description: Clément Nonciaux with the National Youth Orchestra of Russia.
+- name: clementpuzzle_2
+  description: Clément Nonciaux shooting in Taïwan.
 
 - name: clementnonciaux_5
   description: Clément Nonciaux conducting.
 
-- name: clementnonciaux_6
-  description: Clément Nonciaux conducting the Mariinsky Orchestra.
+
