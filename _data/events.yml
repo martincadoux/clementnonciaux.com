@@ -8,6 +8,15 @@
     Britten, Four Sea Interludes  
     Britten, Double Concerto for Violin & Viola
 
+- date: [2026-04-02]
+  type: Concert
+  location: |-
+    Novosibirsk Philharmonic Orchestra  
+    Novosibirsk Choir Chapel  
+    Novosibirsk, RU  
+  program: |-
+    Program TBA
+
 - date: [2026-03-26]
   type: Concert
   location: |-
@@ -54,13 +63,20 @@
   program: |-
     Program TBA
 
-- date: [2025-11-21]
+- date: [2025-11-23]
   type: Concert
   location: |-
     Tchaikovsky Symphony Orchestra  
     Moscow, Great Hall of the Conservatory
   program: |-
     Orff, Carmina Burana
+
+- date: [2025-11-21]
+  type: Concert
+  location: |-  
+    Voronezh, RU  
+  program: |-
+    Program TBA
 
 - date: [2025-11-13, 2025-11-14]
   type: Opera
@@ -69,6 +85,14 @@
     Moscow
   program: |-
     Gounod, Faust
+
+- date: [2025-11-01]
+  type: Concert
+  location: |-
+    Chamber Orchestra of Novosibirsk State Philharmonic  
+    Novosibirsk, RU  
+  program: |-
+    Program TBA
 
 - date: [2025-09-24]
   type: Opera
