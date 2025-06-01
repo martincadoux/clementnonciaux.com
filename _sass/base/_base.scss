@@ -5,6 +5,10 @@
 html {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   font-size: 62.5%;
+
+  @supports(backdrop-filter:blur(0px)) {
+    scroll-padding-block-start: 6.6rem;
+  }
 }
 
 body {

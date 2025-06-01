@@ -10,7 +10,7 @@ id: about
       <ul class="languages__list">
         {% for item in site.data.biography %}
           <li class="languages__item">
-            <a href="#{{ item.tag }}">
+            <a class="languages__link" href="#{{ item.tag }}">
               <span class="visually-hidden">{{ item.language }}</span>
               <span aria-hidden>{{ item.abbreviation }}</span>
             </a>
@@ -19,10 +19,12 @@ id: about
       </ul>
     </nav>
 
-    {% for item in site.data.biography %}
-      <section class="layout-section {% if forloop.index0 > 0 %}layout-separator{% endif %}">
-        {% include biography.html bio=item %}
-      </section>
-    {% endfor %}
+    <div class="languages__contentWrapper">
+      {% for item in site.data.biography %}
+        <section id="{{ item.tag }}" class="languages__content">
+          {% include biography.html bio=item %}
+        </section>
+      {% endfor %}
+    </div>
   </div>
 </div>

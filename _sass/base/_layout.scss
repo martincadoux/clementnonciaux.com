@@ -12,6 +12,7 @@
 
 .layout-content-start {
   flex: 1 1 auto;
+  min-width: 0;
   max-width: 60rem;
 }
 
@@ -100,13 +101,32 @@
 }
 
 .languages {
-  margin-block-end: calc(var(--layout-gap) * 2);
-  background-image: var(--background-gradient-about);
+    margin: calc(var(--layout-gap) * -1);
+    padding: var(--layout-gap);
+
+  @supports(backdrop-filter:blur(1rem)) {
+    position: sticky;
+    inset-block-start: 0;
+    backdrop-filter: blur(1rem);
+  }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     gap: var(--layout-gap);
+  }
+
+  &__contentWrapper {
+    display: flex;
+    gap: var(--layout-gap);
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  &__content {
+    flex: 0 0 100%;
+    margin-block-start: calc(var(--layout-gap) * 2);
+    scroll-margin-block-start: calc(6.6rem + var(--layout-gap));
   }
 }
 
