@@ -15,13 +15,35 @@
     Novosibirsk Choir Chapel  
     Novosibirsk, RU  
   program: |-
-    Program TBA
+    Verdi, Requiem
 
 - date: [2026-03-26]
   type: Concert
   location: |-
     Chelyabinsk State Symphony Orchestra  
     Chelyabinsk, RU
+  program: |-
+    Program TBA
+
+- date: [2026-03-19]
+  type: Concert
+  location: |-
+    Russian National Orchestra  
+    Moscow, Great Hall of the Conservatory
+  program: |-
+    Dukas, L'apprenti Sorcier  
+    Ravel, Concerto en Sol  
+    Bizet, Carmen Suite  
+    Berlioz, Carnaval Romain Ouverture  
+    Saint-Saëns, Danse Macabre  
+    Saint-Saëns, Bacchanale  
+    Ravel, Bolero
+
+- date: [2025-03-14]
+  type: Concert
+  location: |-
+    **DEBUT**  
+    Rostov, RU
   program: |-
     Program TBA
 
