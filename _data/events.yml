@@ -23,7 +23,10 @@
     Chelyabinsk State Symphony Orchestra  
     Chelyabinsk, RU
   program: |-
-    Program TBA
+    Ibert, Divertissement  
+    Ravel, Concerto en Sol  
+    Ravel, Rapsodie espagnole  
+    Debussy, La mer
 
 - date: [2026-03-19]
   type: Concert
@@ -35,9 +38,10 @@
     Ravel, Concerto en Sol  
     Bizet, Carmen Suite  
     Berlioz, Carnaval Romain Ouverture  
+    Chabrier, Espagna  
     Saint-Saëns, Danse Macabre  
     Saint-Saëns, Bacchanale  
-    Ravel, Bolero
+    Ravel, Boléro
 
 - date: [2025-03-14]
   type: Concert
@@ -53,7 +57,12 @@
     Russian National Orchestra  
     Moscow, Great Hall of the Conservatory
   program: |-
-    Program TBA 
+    Tchaikovsky, Violin concerto  
+    Ibert, Paris  
+    Saint-Saëns, Introduction et rondo capriccioso  
+    Satie/Debussy, 1st gympnopédie  
+    Saint-Saëns, Danse macabre  
+    Ravel, Boléro
 
 - date: [2025-12-12]
   type: Opera
@@ -98,7 +107,9 @@
   location: |-  
     Voronezh, RU  
   program: |-
-    Program TBA
+    Rossini, Il Signor Brushino Overture  
+    Mendelssohn, Symphony No. 4 "Italian"  
+    Berlioz, Harold en Italie
 
 - date: [2025-11-13, 2025-11-14]
   type: Opera
@@ -143,7 +154,7 @@
     Berlioz, Carnaval Romain Ouverture  
     Saint-Saëns, Danse Macabre  
     Saint-Saëns, Bacchanale  
-    Ravel, Bolero
+    Ravel, Boléro
     
 - date: [2025-05-10]
   type: Concert
