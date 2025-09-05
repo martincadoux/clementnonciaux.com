@@ -50,9 +50,9 @@
     Rostov, RU
   program: |-
     Ravel, Le tombeau de Couperin  
-		Ravel, Concerto en sol  
-		Rameau, Les Indes galantes, suite de ballet  
-		Poulenc, Sinfonietta
+    Ravel, Concerto en sol  
+    Rameau, Les Indes galantes, suite de ballet  
+    Poulenc, Sinfonietta
 
 - date: [2026-02-13]
   type: Concert
@@ -77,6 +77,11 @@
     Cheboksary, RU
   program: |-
    	Honegger, 2nd Symphony   
+    Lully, Le bourgeois gentilhomme  
+    Françaix, 15 portraits d'enfants  
+    Roussel, Sinfonietta  
+    Saint-Saëns, Ouverture "le Déluge"
+    Ropartz, Sérénade
 
 - date: [2026-01-25]
   type: Concert
