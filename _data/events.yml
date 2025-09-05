@@ -54,10 +54,31 @@
 - date: [2026-02-13]
   type: Concert
   location: |-  
-    Kaliningrad Symphony Orchestra    
+    Kaliningrad Symphony Orchestra  
     Kaliningrad, RU
   program: |-
-   Program TBA
+   	Program TBA
+
+- date: [2026-02-06]
+  type: Concert
+  location: |-  
+    Nizhny Novgorod Soloists Chamber Orchestra  
+    Nizhny Novgorod, RU
+  program: |-
+   	Program TBA
+
+- date: [2026-02-02]
+  type: Concert
+  location: |-  
+    Cheboksary New Chamber Orchestra   
+    Cheboksary, RU
+  program: |-
+   	Honegger, 2nd Symphony  
+		Lully, Le Bourgeois gentilhomme  
+		Roussel, Sinfonietta  
+		Françaix, 15 portraits d'enfants d'Auguste Renoir  
+		Saint-Saëns, Ouverture "le Déluge"  
+		Ropartz, Sérénade
 
 - date: [2026-01-25]
   type: Concert
@@ -133,7 +154,9 @@
     Chamber Orchestra of Novosibirsk State Philharmonic  
     Novosibirsk, RU  
   program: |-
-    Program TBA
+    Chopin, Piano Concerto No. 2  
+		Dvorak, Serenade for Strings  
+		Roussel, Sinfonietta
 
 - date: [2025-09-24]
   type: Opera
