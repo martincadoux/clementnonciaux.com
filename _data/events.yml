@@ -137,6 +137,7 @@
 - date: [2025-11-21]
   type: Concert
   location: |-  
+    **DÉBUT**  
     Voronezh, RU  
   program: |-
     Rossini, Il Signor Brushino Overture  
@@ -160,6 +161,15 @@
     Chopin, Piano Concerto No. 2  
     Dvorak, Serenade for Strings  
     Roussel, Sinfonietta
+
+- date: [2025-10-24]
+  type: Concert
+  location: |- 
+    **DÉBUT**  
+    Moscow Philharmonic Orchestra  
+    Moscow, Tchaikovsky Concert Hall
+  program: |-
+    Strauss 200th Birthday Grand Gala 
 
 - date: [2025-09-24]
   type: Opera
