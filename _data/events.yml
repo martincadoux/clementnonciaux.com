@@ -1,3 +1,11 @@
+- date: [2026-05-16]
+  type: Concert
+  location: |-
+    Tatarstan National Symphony Orchestra    
+    Kazan, RU
+  program: |-
+    Program TBA
+
 - date: [2026-04-23]
   type: Concert
   location: |- 
@@ -20,6 +28,7 @@
 - date: [2026-03-26]
   type: Concert
   location: |-
+    **DÉBUT**  
     Chelyabinsk State Symphony Orchestra  
     Chelyabinsk, RU
   program: |-
@@ -65,6 +74,7 @@
 - date: [2026-02-06]
   type: Concert
   location: |-  
+    **DÉBUT**   
     Nizhny Novgorod Soloists Chamber Orchestra  
     Nizhny Novgorod, RU
   program: |-
@@ -72,7 +82,8 @@
 
 - date: [2026-02-02]
   type: Concert
-  location: |-  
+  location: |- 
+    **DÉBUT**   
     Cheboksary New Chamber Orchestra   
     Cheboksary, RU
   program: |-
@@ -176,7 +187,8 @@
     Moscow Philharmonic Orchestra  
     Moscow, Tchaikovsky Concert Hall
   program: |-
-    Strauss 200th Birthday Grand Gala 
+    Strauss 200th Birthday Grand Gala  
+    Valses, Polkas, Marches…
 
 - date: [2025-09-24]
   type: Opera
