@@ -71,29 +71,6 @@
   program: |-
     Program TBA
 
-- date: [2026-02-06]
-  type: Concert
-  location: |-  
-    **DÉBUT**   
-    Nizhny Novgorod Soloists Chamber Orchestra  
-    Nizhny Novgorod, RU
-  program: |-
-    Program TBA
-
-- date: [2026-02-02]
-  type: Concert
-  location: |- 
-    **DÉBUT**   
-    Cheboksary New Chamber Orchestra   
-    Cheboksary, RU
-  program: |-
-    Honegger, 2nd Symphony   
-    Lully, Le bourgeois gentilhomme  
-    Françaix, 15 portraits d'enfants  
-    Roussel, Sinfonietta  
-    Saint-Saëns, Ouverture "le Déluge"  
-    Ropartz, Sérénade
-
 - date: [2026-01-25]
   type: Concert
   location: |-
@@ -106,6 +83,21 @@
     Satie/Debussy, 1st gympnopédie  
     Saint-Saëns, Danse macabre  
     Ravel, Boléro
+
+- date: [2026-01-21]
+  type: Concert
+  location: |-
+    **DEBUT**  
+    Moscow Virtuosi
+    Zaryadye Hall, Moscow
+  program: |-
+    Saint-Saëns, Ouverture "le Déluge"
+    Gluck, Danse des furies
+    Poulenc, Concerto for Organ
+    Rebel, Les éléments
+    Roussel, Sinfonietta
+    Rameau, Castor et Pollux
+    Lully, Le Bourgeois gentilhomme
 
 - date: [2025-12-12]
   type: Opera
