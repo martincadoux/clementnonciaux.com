@@ -16,6 +16,14 @@
     Britten, Four Sea Interludes  
     Britten, Double Concerto for Violin & Viola
 
+- date: [2026-04-23]
+  type: Concert
+  location: |- 
+    Tchaikovsky Symphony Orchestra  
+    Moscow, Great Hall of the Conservatory
+  program: |-
+   Program TBA
+
 - date: [2026-04-02]
   type: Concert
   location: |-
@@ -33,9 +41,16 @@
     Chelyabinsk, RU
   program: |-
     Ibert, Divertissement  
-    Ravel, Concerto en Sol  
+    Ravel, Concerto pour la main gauche 
     Ravel, Rapsodie espagnole  
     Debussy, La mer
+
+- date: [2026-03-23]
+  type: Concert
+  location: |- 
+    Moscow, Tchaikovsky Concert Hall
+  program: |-
+    Program TBA
 
 - date: [2026-03-19]
   type: Concert
@@ -91,12 +106,11 @@
     Moscow Virtuosi
     Zaryadye Hall, Moscow
   program: |-
-    Saint-Saëns, Ouverture "le Déluge"
-    Gluck, Danse des furies
-    Poulenc, Concerto for Organ
-    Rebel, Les éléments
-    Roussel, Sinfonietta
-    Rameau, Castor et Pollux
+    Saint-Saëns, Ouverture "le Déluge"  
+    Poulenc, Concerto for Organ  
+    Rebel, Les élémens  
+    Roussel, Sinfonietta  
+    Rameau, Les Indes galantes  
     Lully, Le Bourgeois gentilhomme
 
 - date: [2025-12-12]
