@@ -45,13 +45,6 @@
     Ravel, Rapsodie espagnole  
     Debussy, La mer
 
-- date: [2026-03-23]
-  type: Concert
-  location: |- 
-    Moscow, Tchaikovsky Concert Hall
-  program: |-
-    Program TBA
-
 - date: [2026-03-19]
   type: Concert
   location: |-
@@ -84,7 +77,9 @@
     Kaliningrad Symphony Orchestra  
     Kaliningrad, RU
   program: |-
-    Program TBA
+    Grieg, Peer Gynt, 1st suite  
+    Dvorak, Carnaval Ouverture  
+    Sibelius, Violin Concerto
 
 - date: [2026-01-25]
   type: Concert
