@@ -1,3 +1,10 @@
+- date: [2026-06-07]
+  type: Concert
+  location: |-
+    Moscow, Tchaikovsky Concert Hall  
+  program: |-
+    Program TBA
+
 - date: [2026-05-16]
   type: Concert
   location: |-
@@ -70,6 +77,14 @@
     Ravel, Concerto en sol  
     Rameau, Les Indes galantes, suite de ballet  
     Poulenc, Sinfonietta
+
+- date: [2026-02-27]
+  type: Concert
+  location: |-
+    Festival Bashmet
+    Sochi, RU
+  program: |-
+    Concert / Master-classes
 
 - date: [2026-02-13]
   type: Concert
