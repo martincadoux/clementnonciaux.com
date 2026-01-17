@@ -1,6 +1,37 @@
+- date: [2026-12-19]
+  type: Concert
+  location: |-
+    Moscow, Great Hall of the Conservatory
+  program: |-
+    Program TBA
+
+- date: [2026-11-15]
+  type: Concert
+  location: |-
+    Saint-Petersburg Philharmonic Orchestra  
+    Saint-Petersburg Philharmony
+  program: |-
+    Program TBA
+
 - date: [2026-06-07]
   type: Concert
   location: |-
+    Tchaikovsky Symphony Orchestra  
+    Moscow, Great Hall of the Conservatory  
+  program: |-
+    Program TBA
+
+- date: [2026-10-11]
+  type: Concert
+  location: |-
+    Samara, RU  
+  program: |-
+    Program TBA
+
+- date: [2026-06-07]
+  type: Concert
+  location: |-
+    Svetlanov Symphony Orchestra  
     Moscow, Tchaikovsky Concert Hall  
   program: |-
     Program TBA
@@ -8,7 +39,7 @@
 - date: [2026-05-16]
   type: Concert
   location: |-
-    Tatarstan National Symphony Orchestra    
+    Tatarstan National Symphony Orchestra  
     Kazan, RU
   program: |-
     Program TBA
@@ -44,6 +75,14 @@
     Ravel, Rapsodie espagnole  
     Debussy, La mer
 
+- date: [2026-03-21, 2026-03-22]
+  type: Concert
+  location: |-
+    Russian National Youth Symphony Orchestra  
+    Moscow, Philharmonia 2
+  program: |-
+    Program TBA
+
 - date: [2026-03-19]
   type: Concert
   location: |-
@@ -52,11 +91,9 @@
   program: |-
     Dukas, L'apprenti Sorcier  
     Ravel, Concerto en Sol  
-    Bizet, Carmen Suite  
     Berlioz, Carnaval Romain Ouverture  
+    Debussy, Prélude à l'après-midi d'un faune  
     Chabrier, Espagna  
-    Saint-Saëns, Danse Macabre  
-    Saint-Saëns, Bacchanale  
     Ravel, Boléro
 
 - date: [2026-03-14]
@@ -88,6 +125,17 @@
     Dvorak, Carnaval Ouverture  
     Sibelius, Violin Concerto
 
+- date: [2026-01-26]
+  type: Concert
+  location: |-
+    Choir of the Pioneer School  
+    Moscow, St. Andrew's Anglican Church
+  program: |-
+    Fauré, Messe basse  
+    Delibes, Messe brève  
+    Poulenc, Petites voix  
+    Britten, A Ceremony of Carols
+
 - date: [2026-01-25]
   type: Concert
   location: |-
@@ -108,11 +156,11 @@
     Moscow Virtuosi  
     Zaryadye Hall, Moscow
   program: |-
-    Saint-Saëns, Ouverture "le Déluge"  
+    Rameau, Les Indes galantes  
     Poulenc, Concerto for Organ  
     Rebel, Les élémens  
+    Saint-Saëns, Ouverture "le Déluge"  
     Roussel, Sinfonietta  
-    Rameau, Les Indes galantes  
     Lully, Le Bourgeois gentilhomme
 
 - date: [2025-12-12]
