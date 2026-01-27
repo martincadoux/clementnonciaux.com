@@ -37,10 +37,10 @@
     Svetlanov Symphony Orchestra  
     Moscow, Tchaikovsky Concert Hall  
   program: |-
-    Dukas: L'apprenti sorcier  
-    Franck: Variations symphoniques
-    Ravel: Valses nobles et sentimentales  
-    Debussy: La mer  
+    Dukas, L'apprenti sorcier  
+    Franck, Variations symphoniques
+    Ravel, Valses nobles et sentimentales  
+    Debussy, La mer  
 
 - date: [2026-05-16]
   type: Concert
@@ -48,10 +48,10 @@
     Tatarstan National Symphony Orchestra  
     Kazan, RU
   program: |-
-    Kabalevski: Colas Breugnon  
-    Rachmaninov: Piano Concerto No. 1  
-    Debussy: Nocturnes  
-    Rachmaninov: Symphonic Dances
+    Kabalevski, Colas Breugnon  
+    Rachmaninov, Piano Concerto No. 1  
+    Debussy, Nocturnes  
+    Rachmaninov, Symphonic Dances
 
 - date: [2026-04-23]
   type: Concert
@@ -99,7 +99,7 @@
     Moscow, Great Hall of the Conservatory
   program: |-
     Dukas, L'apprenti Sorcier  
-    Ravel, Concerto en Sol  
+    Saint-Saëns, Concerto No. 2  
     Berlioz, Carnaval Romain Ouverture  
     Debussy, Prélude à l'après-midi d'un faune  
     Chabrier, Espagna  
