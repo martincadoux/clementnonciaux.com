@@ -13,13 +13,16 @@
   program: |-
     Program TBA
 
-- date: [2026-06-07]
+- date: [2026-10-24]
   type: Concert
   location: |-
     Tchaikovsky Symphony Orchestra  
     Moscow, Great Hall of the Conservatory  
   program: |-
-    Program TBA
+    Liszt, Hungarian Rhapsody No.2  
+    Brahms, Hungarian Dances  
+    Smetana, The Moldau  
+    Dvorak, Symphony No.9 From the New World
 
 - date: [2026-10-11]
   type: Concert
@@ -34,7 +37,10 @@
     Svetlanov Symphony Orchestra  
     Moscow, Tchaikovsky Concert Hall  
   program: |-
-    Program TBA
+    Dukas: L'apprenti sorcier  
+    Franck: Variations symphoniques
+    Ravel: Valses nobles et sentimentales  
+    Debussy: La mer  
 
 - date: [2026-05-16]
   type: Concert
@@ -42,7 +48,10 @@
     Tatarstan National Symphony Orchestra  
     Kazan, RU
   program: |-
-    Program TBA
+    Kabalevski: Colas Breugnon  
+    Rachmaninov: Piano Concerto No. 1  
+    Debussy: Nocturnes  
+    Rachmaninov: Symphonic Dances
 
 - date: [2026-04-23]
   type: Concert
