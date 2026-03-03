@@ -1,3 +1,15 @@
+- date: [2026-06-07]
+  type: Concert
+  location: |-
+    Moscow Virtuosi  
+    Moscow, Tchaikovsky Concert Hall  
+  program: |-
+    Saint-Saëns, Le carnaval des animaux
+    Saint-Saëns, Ouverture "le Déluge"  
+    Rameau, Les Indes galantes  
+    Rebel, Les élémens  
+    Lully, Le Bourgeois gentilhomme
+
 - date: [2026-12-19]
   type: Concert
   location: |-
@@ -24,7 +36,7 @@
     Smetana, The Moldau  
     Dvorak, Symphony No.9 From the New World
 
-- date: [2026-10-16]
+- date: [2026-10-18]
   type: Concert
   location: |-   
     Togliatti Philharmonic Orchestra  
@@ -32,7 +44,7 @@
   program: |-
     Program TBA 
 
-- date: [2026-10-11]
+- date: [2026-10-14]
   type: Concert
   location: |-
     Samara, RU  
@@ -42,6 +54,17 @@
     Mendelssohn, Fingal's Cave Overture  
     Ravel, Une barque sur l'océan  
     Debussy, La mer
+
+- date: [2026-10-09]
+  type: Concert
+  location: |-
+    Russian National Orchestra  
+    Moscow, Philharmonia 2
+  program: |-
+    Dukas, L'apprenti sorcier  
+    Franck, Variations symphoniques  
+    Ravel, Valses nobles et sentimentales  
+    Debussy, La mer  
 
 - date: [2026-06-07]
   type: Concert
@@ -102,7 +125,7 @@
     Russian National Youth Symphony Orchestra  
     Moscow, Philharmonia 2
   program: |-
-    Program TBA
+    Show "Piligrimi"  
 
 - date: [2026-03-19]
   type: Concert
