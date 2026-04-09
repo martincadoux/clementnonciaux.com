@@ -4,7 +4,7 @@
     Moscow Virtuosi  
     Moscow, Tchaikovsky Concert Hall  
   program: |-
-    Saint-Saëns, Le carnaval des animaux
+    Saint-Saëns, Le carnaval des animaux  
     Saint-Saëns, Ouverture "le Déluge"  
     Rameau, Les Indes galantes  
     Rebel, Les élémens  
@@ -62,6 +62,13 @@
     Moscow, Philharmonia 2
   program: |-
     Program TBA
+
+- date: [2026-10-01]
+  type: Opera
+  location: |-
+    Perm Opera and Ballet Theater, RU
+  program: |-
+    Massenet, Cendrillon
 
 - date: [2026-06-07]
   type: Concert
