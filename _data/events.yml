@@ -42,7 +42,7 @@
 - date: [2026-12-19]
   type: Concert
   location: |-
-    Russian National Orchestra
+    Russian National Orchestra  
     Moscow, Great Hall of the Conservatory
   program: |-
     Program TBA
@@ -50,7 +50,7 @@
 - date: [2026-12-03, 2026-12-04]
   type: Opera
   location: |-
-    **PREMIERE**
+    **PREMIERE**  
     Novosibirsk State Academic Opera and Ballet Theater  
     Novosibirsk, RU  
   program: |-
@@ -70,8 +70,8 @@
     Saint-Petersburg Philharmonic Orchestra  
     Saint-Petersburg Philharmony
   program: |-
-    Liszt, Les Préludes
-    Mendelssohn, Violin Concerto
+    Liszt, Les Préludes  
+    Mendelssohn, Violin Concerto  
     Saint-Saëns, Symphonie No.3
 
 - date: [2026-10-24]
