@@ -1,3 +1,32 @@
+- date: [2027-05-01]
+  type: Concert
+  location: |-
+    Svetlanov Symphony Orchestra  
+    Moscow, Tchaikovsky Concert Hall  
+  program: |-
+    Dukas, L'apprenti sorcier  
+    Franck, Variations symphoniques  
+    Ravel, Valses nobles et sentimentales  
+    Debussy, La mer  
+
+- date: [2027-04-28]
+  type: Concert
+  location: |-
+    Tatarstan National Symphony Orchestra  
+    Kazan, RU
+  program: |-
+    Dukas, L'apprenti sorcier  
+    Franck, Variations symphoniques  
+    Ravel, Valses nobles et sentimentales  
+    Debussy, La mer  
+
+- date: [2027-04-24]
+  type: Opera
+  location: |-
+    Perm Opera and Ballet Theater, RU
+  program: |-
+    Rossini, Il barbiere di Siviglia
+
 - date: [2027-03-10]
   type: Concert
   location: |-
@@ -13,7 +42,25 @@
 - date: [2026-12-19]
   type: Concert
   location: |-
+    Russian National Orchestra
     Moscow, Great Hall of the Conservatory
+  program: |-
+    Program TBA
+
+- date: [2026-12-03, 2026-12-04]
+  type: Opera
+  location: |-
+    **PREMIERE**
+    Novosibirsk State Academic Opera and Ballet Theater  
+    Novosibirsk, RU  
+  program: |-
+    Purcell, The Fairy Queen
+
+- date: [2026-11-29]
+  type: Concert
+  location: |-
+    Russian National Orchestra  
+    Moscow, Philharmonia 2
   program: |-
     Program TBA
 
@@ -23,7 +70,9 @@
     Saint-Petersburg Philharmonic Orchestra  
     Saint-Petersburg Philharmony
   program: |-
-    Program TBA
+    Liszt, Les Préludes
+    Mendelssohn, Violin Concerto
+    Saint-Saëns, Symphonie No.3
 
 - date: [2026-10-24]
   type: Concert
@@ -69,17 +118,6 @@
     Perm Opera and Ballet Theater, RU
   program: |-
     Massenet, Cendrillon
-
-- date: [2026-06-07]
-  type: Concert
-  location: |-
-    Svetlanov Symphony Orchestra  
-    Moscow, Tchaikovsky Concert Hall  
-  program: |-
-    Dukas, L'apprenti sorcier  
-    Franck, Variations symphoniques  
-    Ravel, Valses nobles et sentimentales  
-    Debussy, La mer  
 
 - date: [2026-05-16]
   type: Concert
