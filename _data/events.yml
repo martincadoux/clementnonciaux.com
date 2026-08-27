@@ -31,13 +31,21 @@
   type: Concert
   location: |-
     Moscow Virtuosi  
-    Moscow, Tchaikovsky Concert Hall  
+    Moscow, Tchaikovsky Concert Hall
   program: |-
     Saint-Saëns, Le carnaval des animaux  
     Saint-Saëns, Ouverture "le Déluge"  
     Rameau, Les Indes galantes  
     Rebel, Les élémens  
     Lully, Le Bourgeois gentilhomme
+
+- date: [2027-01-31]
+  type: Concert
+  location: |-
+    Russian National Orchestra  
+    Moscow, Tchaikovsky Concert Hall
+  program: |-
+    Works by Bach, Haendel, Mozart, Beethoven…
 
 - date: [2026-12-19]
   type: Concert
@@ -47,22 +55,22 @@
   program: |-
     Program TBA
 
-- date: [2026-12-03, 2026-12-04]
-  type: Opera
-  location: |-
-    **PREMIERE**  
-    Novosibirsk State Academic Opera and Ballet Theater  
-    Novosibirsk, RU  
-  program: |-
-    Purcell, The Fairy Queen
-
 - date: [2026-11-29]
   type: Concert
   location: |-
-    Russian National Orchestra  
+    National Philharmonic of Russia
     Moscow, Philharmonia 2
   program: |-
-    Program TBA
+    "Symphonic Stories for Narrator and Orchestra"  
+    Rimsky-Korsakov, Simbad the Sailor
+
+- date: [2026-11-22]
+  type: Opera
+  location: |-
+    Novosibirsk State Academic Opera and Ballet Theater  
+    Novosibirsk, RU  
+  program: |-
+    Bizet, Carmen
 
 - date: [2026-11-15]
   type: Concert
@@ -91,7 +99,13 @@
     Togliatti Philharmonic Orchestra  
     Togliatti, RU
   program: |-
-    Program TBA 
+    Debussy, Petite Suite  
+    Fauré, Nocturne from "Shylock"  
+    Chaminade, Concertino for Flute and Orchestra  
+    Saint-Saëns, Ouverture "le Déluge"  
+    Debussy, Rhapsody for Clarinet and Orchestra  
+    Massenet, Méditation  
+    Bizet, Suites from "Carmen", "l'Arlésienne", "la Jolie fille de Perth"
 
 - date: [2026-10-14]
   type: Concert
@@ -99,6 +113,7 @@
     Samara, RU  
   program: |-
     Prokofiev, Pushkin Waltzes  
+    Tchaikovsky, Scherzo-Valse  
     Gliere, Violin Concerto  
     Mendelssohn, Fingal's Cave Overture  
     Ravel, Une barque sur l'océan  
@@ -110,7 +125,10 @@
     Russian National Orchestra  
     Moscow, Philharmonia 2
   program: |-
-    Program TBA
+    Ibert, Suite "Paris"  
+    Ravel, Concerto pour la main gauche  
+    Ravel, Concerto en sol  
+    Respighi, Pini di Roma
 
 - date: [2026-10-01]
   type: Opera
@@ -124,8 +142,7 @@
   location: |-
     Tatarstan National Symphony Orchestra  
     Kazan, RU
-  program: |-
-    Kabalevski, Colas Breugnon  
+  program: |-  
     Rachmaninov, Piano Concerto No. 1  
     Debussy, Nocturnes  
     Rachmaninov, Symphonic Dances
