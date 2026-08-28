@@ -58,11 +58,11 @@
 - date: [2026-11-29]
   type: Concert
   location: |-
-    National Philharmonic of Russia
+    National Philharmonic of Russia  
     Moscow, Philharmonia 2
   program: |-
     "Symphonic Stories for Narrator and Orchestra"  
-    Rimsky-Korsakov, Simbad the Sailor
+    Works by Rimsky-Korsakov
 
 - date: [2026-11-22]
   type: Opera
@@ -92,6 +92,15 @@
     Brahms, Hungarian Dances  
     Smetana, The Moldau  
     Dvorak, Symphony No.9 From the New World
+
+- date: [2026-10-23]
+  type: Gala
+  location: |-
+    Krasnoyarsk Philharmonic  
+    Krasnoyarsk, RU  
+    Dmitri Hvorostovsky Festival
+  soloist: |-
+    Aida Garifullina, Soprano  
 
 - date: [2026-10-18]
   type: Concert
