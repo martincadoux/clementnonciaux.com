@@ -1,4 +1,4 @@
-- date: [2027-05-01]
+- date: [2027-05-03]
   type: Concert
   location: |-
     Svetlanov Symphony Orchestra  
@@ -67,6 +67,14 @@
     Valse Scherzo  
     Andante Cantabile…
 
+- date: [2026-12-05]
+  type: Concert
+  location: |-
+    Moscow State Symphony Orchestra    
+    Moscow, Philharmonia 2
+  program: |-
+    Tchaikosvky, The Sleeping Beauty
+    
 - date: [2026-11-29]
   type: Concert
   location: |-
